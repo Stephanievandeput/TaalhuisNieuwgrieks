@@ -1,0 +1,1580 @@
+<resources>
+    <string name="app_name">Taalhuis Nieuwgrieks</string>
+
+    <!-- Names for the lesson TextViews in the MainActivity -->
+    <string name="lesson_one">Les 1</string>
+    <string name="lesson_two">Les 2</string>
+    <string name="lesson_three">Les 3</string>
+    <string name="lesson_four">Les 4</string>
+    <string name="lesson_five">Les 5</string>
+    <string name="lesson_six">Les 6</string>
+    <string name="lesson_seven">Les 7</string>
+    <string name="lesson_eight">Les 8</string>
+    <string name="lesson_nine">Les 9</string>
+    <string name="lesson_ten">Les 10</string>
+    <string name="lesson_eleven">Les 11</string>
+    <string name="lesson_twelve">Les 12</string>
+    <string name="lesson_thirteen">Les 13</string>
+    <string name="lesson_fourteen">Les 14</string>
+    <string name="lesson_fifteen">Les 15</string>
+    <string name="lesson_sixteen">Les 16</string>
+    <string name="lesson_seventeen">Les 17</string>
+    <string name="lesson_eighteen">Les 18</string>
+
+    <!-- Dutch words for Lesson 1 -->
+    <string name="one_nl_word_1">dag</string>
+    <string name="one_nl_word_2">hoi</string>
+    <string name="one_nl_word_3">heten</string>
+    <string name="one_nl_word_4">ik heet Kostas</string>
+    <string name="one_nl_word_5">aangenaam</string>
+    <string name="one_nl_word_6">goedendag</string>
+    <string name="one_nl_word_7">dag</string>
+    <string name="one_nl_word_8">goedenavond</string>
+    <string name="one_nl_word_9">tot ziens</string>
+    <string name="one_nl_word_10">goedenacht</string>
+    <string name="one_nl_word_11">ik ben Kostas</string>
+    <string name="one_nl_word_12">ik ben Maria</string>
+    <string name="one_nl_word_13">onderling</string>
+    <string name="one_nl_word_14">ik heet</string>
+    <string name="one_nl_word_15">ik heet Kostas</string>
+    <string name="one_nl_word_16">hoe heet u?</string>
+    <string name="one_nl_word_17">hoe heet je?</string>
+    <string name="one_nl_word_18">ik ook</string>
+    <string name="one_nl_word_19">vragen</string>
+    <string name="one_nl_word_20">antwoorden</string>
+    <string name="one_nl_word_21">medeleerling</string>
+    <string name="one_nl_word_22">waar komt u vandaan?</string>
+    <string name="one_nl_word_23">waar kom je vandaan?</string>
+    <string name="one_nl_word_24">ik kom uit</string>
+    <string name="one_nl_word_25">de mevrouw</string>
+    <string name="one_nl_word_26">jij</string>
+    <string name="one_nl_word_27">u</string>
+    <string name="one_nl_word_28">juist</string>
+    <string name="one_nl_word_29">België</string>
+    <string name="one_nl_word_30">Engeland</string>
+    <string name="one_nl_word_31">Duitsland</string>
+    <string name="one_nl_word_32">Canada</string>
+    <string name="one_nl_word_33">Noorwegen</string>
+    <string name="one_nl_word_34">Mexico</string>
+    <string name="one_nl_word_35">Libanon</string>
+    <string name="one_nl_word_36">Amerika</string>
+    <string name="one_nl_word_37">Frankrijk</string>
+    <string name="one_nl_word_38">Israël</string>
+    <string name="one_nl_word_39">Marokko</string>
+    <string name="one_nl_word_40">Turkije</string>
+    <string name="one_nl_word_41">Nederland</string>
+    <string name="one_nl_word_42">Iran</string>
+    <string name="one_nl_word_43">Zwitserland</string>
+    <string name="one_nl_word_44">Albanië</string>
+    <string name="one_nl_word_45">Griekenland</string>
+    <string name="one_nl_word_46">Spanje</string>
+    <string name="one_nl_word_47">waar?</string>
+    <string name="one_nl_word_48">zeer</string>
+    <string name="one_nl_word_49">les</string>
+    <string name="one_nl_word_50">hoe?</string>
+
+    <!-- Greek words for lesson 1 -->
+    <string name="one_gr_word_1">γεια σας</string>
+    <string name="one_gr_word_2">γεια σου</string>
+    <string name="one_gr_word_3">λέγομαι</string>
+    <string name="one_gr_word_4">λέγομαι Κώστας</string>
+    <string name="one_gr_word_5">χαίρω πολύ</string>
+    <string name="one_gr_word_6">καλημέρα</string>
+    <string name="one_gr_word_7">χαίρετε</string>
+    <string name="one_gr_word_8">καλησπέρα</string>
+    <string name="one_gr_word_9">αντίο</string>
+    <string name="one_gr_word_10">καληνύχτα</string>
+    <string name="one_gr_word_11">είμαι ο Κώστας</string>
+    <string name="one_gr_word_12">είμαι η Μαρία</string>
+    <string name="one_gr_word_13">μεταξύ τους</string>
+    <string name="one_gr_word_14">με λένε</string>
+    <string name="one_gr_word_15">με λένε Κώστα</string>
+    <string name="one_gr_word_16">πώς σας λένε;</string>
+    <string name="one_gr_word_17">πώς σε λένε;</string>
+    <string name="one_gr_word_18">κι εγώ</string>
+    <string name="one_gr_word_19">ρωτάω</string>
+    <string name="one_gr_word_20">απαντάω</string>
+    <string name="one_gr_word_21">ο συμμαθητής</string>
+    <string name="one_gr_word_22">από πού είστε;</string>
+    <string name="one_gr_word_23">από πού είσαι;</string>
+    <string name="one_gr_word_24">είμαι από</string>
+    <string name="one_gr_word_25">η κυρία</string>
+    <string name="one_gr_word_26">εσύ</string>
+    <string name="one_gr_word_27">εσείς</string>
+    <string name="one_gr_word_28">σωστός</string>
+    <string name="one_gr_word_29">το Βέλγιο</string>
+    <string name="one_gr_word_30">η Αγγλία</string>
+    <string name="one_gr_word_31">η Γερμανία</string>
+    <string name="one_gr_word_32">ο Καναδάς</string>
+    <string name="one_gr_word_33">η Νορβηγία</string>
+    <string name="one_gr_word_34">το Μεξικό</string>
+    <string name="one_gr_word_35">ο Λίβανος</string>
+    <string name="one_gr_word_36">η Αμερική</string>
+    <string name="one_gr_word_37">η Γαλλία</string>
+    <string name="one_gr_word_38">το Ισραήλ</string>
+    <string name="one_gr_word_39">το Μαρόκο</string>
+    <string name="one_gr_word_40">η Τουρκία</string>
+    <string name="one_gr_word_41">η Ολλανδία</string>
+    <string name="one_gr_word_42">το Ιράν</string>
+    <string name="one_gr_word_43">η Ελβετία</string>
+    <string name="one_gr_word_44">η Αλβανία</string>
+    <string name="one_gr_word_45">η Ελλάδα</string>
+    <string name="one_gr_word_46">η Ισπανία</string>
+    <string name="one_gr_word_47">πού;</string>
+    <string name="one_gr_word_48">πολύ</string>
+    <string name="one_gr_word_49">το μάθημα</string>
+    <string name="one_gr_word_50">πώς;</string>
+
+    <!-- Dutch words for lesson 2 -->
+
+    <string name="two_nl_word_1">hoe gaat het met je?</string>
+    <string name="two_nl_word_2">hoe gaat het met u?</string>
+    <string name="two_nl_word_3">meneer</string>
+    <string name="two_nl_word_4">goedendag meneer Moreti</string>
+    <string name="two_nl_word_5">de heer</string>
+    <string name="two_nl_word_6">goed</string>
+    <string name="two_nl_word_7">bedankt</string>
+    <string name="two_nl_word_8">hoe gaat het met je?</string>
+    <string name="two_nl_word_9">hoe gaat het met u?</string>
+    <string name="two_nl_word_10">prima</string>
+    <string name="two_nl_word_11">heel goed</string>
+    <string name="two_nl_word_12">zozo</string>
+    <string name="two_nl_word_13">niet heel goed</string>
+    <string name="two_nl_word_14">een</string>
+    <string name="two_nl_word_15">twee</string>
+    <string name="two_nl_word_16">drie</string>
+    <string name="two_nl_word_17">vier</string>
+    <string name="two_nl_word_18">vijf</string>
+    <string name="two_nl_word_19">zes</string>
+    <string name="two_nl_word_20">zeven</string>
+    <string name="two_nl_word_21">acht</string>
+    <string name="two_nl_word_22">negen</string>
+    <string name="two_nl_word_23">tien</string>
+    <string name="two_nl_word_24">nul</string>
+    <string name="two_nl_word_25">maken, doen</string>
+    <string name="two_nl_word_26">hoeveel is twee plus twee?</string>
+    <string name="two_nl_word_27">twee plus twee is vier</string>
+
+    <!-- Greek words for lesson 2 -->
+    <string name="two_gr_word_1">τι κάνεις;</string>
+    <string name="two_gr_word_2">τι κάνετε;</string>
+    <string name="two_gr_word_3">ο κύριος</string>
+    <string name="two_gr_word_4">καλημέρα κύριε Μορέτι</string>
+    <string name="two_gr_word_5">κύριε</string>
+    <string name="two_gr_word_6">καλά</string>
+    <string name="two_gr_word_7">ευχαριστώ</string>
+    <string name="two_gr_word_8">πώς είσαι;</string>
+    <string name="two_gr_word_9">πώς είστε;</string>
+    <string name="two_gr_word_10">μια χαρά</string>
+    <string name="two_gr_word_11">πολύ καλά</string>
+    <string name="two_gr_word_12">έτσι κι έτσι</string>
+    <string name="two_gr_word_13">όχι πολύ καλά</string>
+    <string name="two_gr_word_14">ένα</string>
+    <string name="two_gr_word_15">δύο</string>
+    <string name="two_gr_word_16">τρία</string>
+    <string name="two_gr_word_17">τέσσερα</string>
+    <string name="two_gr_word_18">πέντε</string>
+    <string name="two_gr_word_19">έξι</string>
+    <string name="two_gr_word_20">εφτά</string>
+    <string name="two_gr_word_21">οχτώ</string>
+    <string name="two_gr_word_22">εννιά</string>
+    <string name="two_gr_word_23">δέκα</string>
+    <string name="two_gr_word_24">μηδέν</string>
+    <string name="two_gr_word_25">κάνω</string>
+    <string name="two_gr_word_26">πόσο κάνει δύο και δύο;</string>
+    <string name="two_gr_word_27">δύο και δύο κάνει τέσσερα</string>
+
+    <!-- Dutch words for lesson 3 -->
+
+    <string name="three_nl_word_1">werken</string>
+    <string name="three_nl_word_2">in, naar, aan</string>
+    <string name="three_nl_word_3">docente</string>
+    <string name="three_nl_word_4">nu</string>
+    <string name="three_nl_word_5">wonen</string>
+    <string name="three_nl_word_6">getrouwd</string>
+    <string name="three_nl_word_7">man</string>
+    <string name="three_nl_word_8">van haar</string>
+    <string name="three_nl_word_9">hebben</string>
+    <string name="three_nl_word_10">kind</string>
+    <string name="three_nl_word_11">met, bij</string>
+    <string name="three_nl_word_12">vader</string>
+    <string name="three_nl_word_13">welke</string>
+    <string name="three_nl_word_14">waarvandaan?</string>
+    <string name="three_nl_word_15">Parijs</string>
+    <string name="three_nl_word_16">Moskou</string>
+    <string name="three_nl_word_17">Wenen</string>
+    <string name="three_nl_word_18">Madrid</string>
+    <string name="three_nl_word_19">Praag</string>
+    <string name="three_nl_word_20">Londen</string>
+    <string name="three_nl_word_21">Boekarest</string>
+    <string name="three_nl_word_22">Roemenië</string>
+    <string name="three_nl_word_23">Toronto</string>
+    <string name="three_nl_word_24">Thessaloniki</string>
+    <string name="three_nl_word_25">Groot-Brittanië</string>
+    <string name="three_nl_word_26">Liverpool</string>
+    <string name="three_nl_word_27">Oslo</string>
+    <string name="three_nl_word_28">Turkije</string>
+    <string name="three_nl_word_29">Ankara</string>
+    <string name="three_nl_word_30">China</string>
+    <string name="three_nl_word_31">Peking</string>
+    <string name="three_nl_word_32">San Francisco</string>
+    <string name="three_nl_word_33">Pakistan</string>
+    <string name="three_nl_word_34">ja</string>
+    <string name="three_nl_word_35">denken, vinden</string>
+    <string name="three_nl_word_36">Italië</string>
+    <string name="three_nl_word_37">elf</string>
+    <string name="three_nl_word_38">twaalf</string>
+    <string name="three_nl_word_39">dertien</string>
+    <string name="three_nl_word_40">veertien</string>
+    <string name="three_nl_word_41">vijftien</string>
+    <string name="three_nl_word_42">zestien</string>
+    <string name="three_nl_word_43">zeventien</string>
+    <string name="three_nl_word_44">achtien</string>
+    <string name="three_nl_word_45">negentien</string>
+    <string name="three_nl_word_46">twintig</string>
+    <string name="three_nl_word_47">dertig</string>
+    <string name="three_nl_word_48">veertig</string>
+    <string name="three_nl_word_49">vijftig</string>
+    <string name="three_nl_word_50">zestig</string>
+    <string name="three_nl_word_51">zeventig</string>
+    <string name="three_nl_word_52">tachtig</string>
+    <string name="three_nl_word_53">negentig</string>
+    <string name="three_nl_word_54">honderd</string>
+    <string name="three_nl_word_55">kilometer</string>
+
+    <!-- Greek words for lesson 3 -->
+
+    <string name="three_gr_word_1">δουλεύω</string>
+    <string name="three_gr_word_2">σε</string>
+    <string name="three_gr_word_3">η καθηγήτρια</string>
+    <string name="three_gr_word_4">τώρα</string>
+    <string name="three_gr_word_5">μένω</string>
+    <string name="three_gr_word_6">παντρεμένος</string>
+    <string name="three_gr_word_7">ο άντρας</string>
+    <string name="three_gr_word_8">της</string>
+    <string name="three_gr_word_9">έχω</string>
+    <string name="three_gr_word_10">το παιδί</string>
+    <string name="three_gr_word_11">με</string>
+    <string name="three_gr_word_12">ο πατέρας</string>
+    <string name="three_gr_word_13">ποιος</string>
+    <string name="three_gr_word_14">από ποιο μέρος;</string>
+    <string name="three_gr_word_15">το Παρίσι</string>
+    <string name="three_gr_word_16">η Μόσχα</string>
+    <string name="three_gr_word_17">η Βιέννη</string>
+    <string name="three_gr_word_18">η Μαδρίτη</string>
+    <string name="three_gr_word_19">η Πράγα</string>
+    <string name="three_gr_word_20">το Λονδίνο</string>
+    <string name="three_gr_word_21">το Βουκουρέστι</string>
+    <string name="three_gr_word_22">η Ρουμανία</string>
+    <string name="three_gr_word_23">το Τορόντο</string>
+    <string name="three_gr_word_24">η Θεσσαλονίκη</string>
+    <string name="three_gr_word_25">η Βρετανία</string>
+    <string name="three_gr_word_26">το Λίβερπουλ</string>
+    <string name="three_gr_word_27">το Όσλο</string>
+    <string name="three_gr_word_28">η Τουρκία</string>
+    <string name="three_gr_word_29">η Άγκυρα</string>
+    <string name="three_gr_word_30">η Κίνα</string>
+    <string name="three_gr_word_31">το Πεκίνο</string>
+    <string name="three_gr_word_32">το Σαν Φρανσίσκο</string>
+    <string name="three_gr_word_33">το Πάκισταν</string>
+    <string name="three_gr_word_34">ναι</string>
+    <string name="three_gr_word_35">νομίζω</string>
+    <string name="three_gr_word_36">η Ιταλία</string>
+    <string name="three_gr_word_37">έντεκα</string>
+    <string name="three_gr_word_38">δώδεκα</string>
+    <string name="three_gr_word_39">δεκατρία</string>
+    <string name="three_gr_word_40">δεκατέσσερα</string>
+    <string name="three_gr_word_41">δεκαπέντε</string>
+    <string name="three_gr_word_42">δεκαέξι</string>
+    <string name="three_gr_word_43">δεκαεφτά</string>
+    <string name="three_gr_word_44">δεκαοχτώ</string>
+    <string name="three_gr_word_45">δεκαεννιά</string>
+    <string name="three_gr_word_46">είκοσι</string>
+    <string name="three_gr_word_47">τριάντα</string>
+    <string name="three_gr_word_48">σαράντα</string>
+    <string name="three_gr_word_49">πενήντα</string>
+    <string name="three_gr_word_50">εξήντα</string>
+    <string name="three_gr_word_51">εβδομήντα</string>
+    <string name="three_gr_word_52">ογδόντα</string>
+    <string name="three_gr_word_53">ενενήντα</string>
+    <string name="three_gr_word_54">εκατό</string>
+    <string name="three_gr_word_55">το χιλιόμετρο</string>
+
+    <!-- Dutch words for lesson 4 -->
+
+    <string name="four_nl_word_1">alstublieft</string>
+    <string name="four_nl_word_2">secretaresse</string>
+    <string name="four_nl_word_3">precies</string>
+    <string name="four_nl_word_4">telefoon(nummer)</string>
+    <string name="four_nl_word_5">werk</string>
+    <string name="four_nl_word_6">arts</string>
+    <string name="four_nl_word_7">arts(v)</string>
+    <string name="four_nl_word_8">oké</string>
+    <string name="four_nl_word_9">101</string>
+    <string name="four_nl_word_10">200</string>
+    <string name="four_nl_word_11">300</string>
+    <string name="four_nl_word_12">400</string>
+    <string name="four_nl_word_13">500</string>
+    <string name="four_nl_word_14">600</string>
+    <string name="four_nl_word_15">700</string>
+    <string name="four_nl_word_16">800</string>
+    <string name="four_nl_word_17">900</string>
+    <string name="four_nl_word_18">1000</string>
+    <string name="four_nl_word_19">plus</string>
+    <string name="four_nl_word_20">min</string>
+    <string name="four_nl_word_21">huis</string>
+    <string name="four_nl_word_22">thuis</string>
+    <string name="four_nl_word_23">misschien</string>
+    <string name="four_nl_word_24">en, ook</string>
+    <string name="four_nl_word_25">mobiele telefoon</string>
+    <string name="four_nl_word_26">minuut</string>
+    <string name="four_nl_word_27">mijn</string>
+    <string name="four_nl_word_28">jouw</string>
+    <string name="four_nl_word_29">zijn</string>
+    <string name="four_nl_word_30">haar</string>
+    <string name="four_nl_word_31">ons</string>
+    <string name="four_nl_word_32">uw</string>
+    <string name="four_nl_word_33">hun</string>
+    <string name="four_nl_word_34">docent</string>
+    <string name="four_nl_word_35">verkoper</string>
+    <string name="four_nl_word_36">verkoopster</string>
+    <string name="four_nl_word_37">onderwijzer</string>
+    <string name="four_nl_word_38">leerling</string>
+    <string name="four_nl_word_39">onderwijzeres</string>
+    <string name="four_nl_word_40">leerlinge</string>
+    <string name="four_nl_word_41">fotograaf</string>
+    <string name="four_nl_word_42">ingenieur</string>
+    <string name="four_nl_word_43">diplomaat</string>
+    <string name="four_nl_word_44">fotomodel</string>
+    <string name="four_nl_word_45">handtekening</string>
+    <string name="four_nl_word_46">advocaat</string>
+    <string name="four_nl_word_47">advocate</string>
+    <string name="four_nl_word_48">hier</string>
+
+    <!-- Greek words for lesson 4 -->
+
+    <string name="four_gr_word_1">παρακαλώ</string>
+    <string name="four_gr_word_2">η γραμματέας</string>
+    <string name="four_gr_word_3">ακριβώς</string>
+    <string name="four_gr_word_4">το τηλέφωνο</string>
+    <string name="four_gr_word_5">η δουλειά</string>
+    <string name="four_gr_word_6">ο γιατρός</string>
+    <string name="four_gr_word_7">η γιατρός</string>
+    <string name="four_gr_word_8">εντάξει</string>
+    <string name="four_gr_word_9">εκατόν ένα</string>
+    <string name="four_gr_word_10">διακόσια</string>
+    <string name="four_gr_word_11">τριακόσια</string>
+    <string name="four_gr_word_12">τετρακόσια</string>
+    <string name="four_gr_word_13">πεντακόσια</string>
+    <string name="four_gr_word_14">εξακόσια</string>
+    <string name="four_gr_word_15">εφτακόσια</string>
+    <string name="four_gr_word_16">οχτακόσια</string>
+    <string name="four_gr_word_17">εννιακόσια</string>
+    <string name="four_gr_word_18">χίλια</string>
+    <string name="four_gr_word_19">συν</string>
+    <string name="four_gr_word_20">πλην</string>
+    <string name="four_gr_word_21">το σπίτι</string>
+    <string name="four_gr_word_22">στο σπίτι</string>
+    <string name="four_gr_word_23">μήπως</string>
+    <string name="four_gr_word_24">και</string>
+    <string name="four_gr_word_25">το κινητό</string>
+    <string name="four_gr_word_26">το λεπτό</string>
+    <string name="four_gr_word_27">μου</string>
+    <string name="four_gr_word_28">σου</string>
+    <string name="four_gr_word_29">του</string>
+    <string name="four_gr_word_30">της</string>
+    <string name="four_gr_word_31">μας</string>
+    <string name="four_gr_word_32">σας</string>
+    <string name="four_gr_word_33">τους</string>
+    <string name="four_gr_word_34">ο καθηγητής</string>
+    <string name="four_gr_word_35">ο πωλητής</string>
+    <string name="four_gr_word_36">η πωλήτρια</string>
+    <string name="four_gr_word_37">ο δάσκαλος</string>
+    <string name="four_gr_word_38">ο μαθητής</string>
+    <string name="four_gr_word_39">η δασκάλα</string>
+    <string name="four_gr_word_40">η μαθήτρια</string>
+    <string name="four_gr_word_41">ο φωτογράφο</string>
+    <string name="four_gr_word_42">ο μηχανικός</string>
+    <string name="four_gr_word_43">ο διπλωμάτη</string>
+    <string name="four_gr_word_44">το φωτομοντ</string>
+    <string name="four_gr_word_45">η υπογραφή</string>
+    <string name="four_gr_word_46">ο δικηγόρος</string>
+    <string name="four_gr_word_47">η δικηγόρος</string>
+    <string name="four_gr_word_48">εδώ</string>
+
+    <!-- Dutch words for lesson 5 -->
+
+    <string name="five_nl_word_1">spreken</string>
+    <string name="five_nl_word_2">het Grieks</string>
+    <string name="five_nl_word_3">kom</string>
+    <string name="five_nl_word_4">leren</string>
+    <string name="five_nl_word_5">musicus</string>
+    <string name="five_nl_word_6">vrij</string>
+    <string name="five_nl_word_7">meisje</string>
+    <string name="five_nl_word_8">jongen</string>
+    <string name="five_nl_word_9">niet</string>
+    <string name="five_nl_word_10">redelijk</string>
+    <string name="five_nl_word_11">een beetje</string>
+    <string name="five_nl_word_12">helemaal niet</string>
+    <string name="five_nl_word_13">ik spreek een beetje Engels</string>
+    <string name="five_nl_word_14">ik spreek helemaal geen Duits</string>
+    <string name="five_nl_word_15">ik spreek redelijk goed Italiaans</string>
+    <string name="five_nl_word_16">Arabisch</string>
+    <string name="five_nl_word_17">Engels</string>
+    <string name="five_nl_word_18">Frans</string>
+    <string name="five_nl_word_19">Russisch</string>
+    <string name="five_nl_word_20">Duits</string>
+    <string name="five_nl_word_21">Spaans</string>
+    <string name="five_nl_word_22">Italiaans</string>
+    <string name="five_nl_word_23">Albanisch</string>
+    <string name="five_nl_word_24">Chinees</string>
+    <string name="five_nl_word_25">Japans</string>
+    <string name="five_nl_word_26">Zweeds</string>
+    <string name="five_nl_word_27">Turks</string>
+    <string name="five_nl_word_28">partner</string>
+    <string name="five_nl_word_29">dochter</string>
+    <string name="five_nl_word_30">zoon</string>
+    <string name="five_nl_word_31">vader</string>
+    <string name="five_nl_word_32">moeder</string>
+    <string name="five_nl_word_33">broer</string>
+    <string name="five_nl_word_34">zus</string>
+    <string name="five_nl_word_35">spelen</string>
+    <string name="five_nl_word_36">toneel</string>
+    <string name="five_nl_word_37">vriend</string>
+    <string name="five_nl_word_38">vriendin</string>
+    <string name="five_nl_word_39">bijv.</string>
+    <string name="five_nl_word_40">voorbeeld</string>
+    <string name="five_nl_word_41">bijvoorbeeld</string>
+    <string name="five_nl_word_42">gescheiden</string>
+    <string name="five_nl_word_43">vrouw</string>
+    <string name="five_nl_word_44">man</string>
+
+    <!-- Greek words for lesson 5 -->
+
+    <string name="five_gr_word_1">μιλάω</string>
+    <string name="five_gr_word_2">τα ελληνικά</string>
+    <string name="five_gr_word_3">έλα</string>
+    <string name="five_gr_word_4">μαθαίνω</string>
+    <string name="five_gr_word_5">ο μουσικός</string>
+    <string name="five_gr_word_6">ελεύθερος</string>
+    <string name="five_gr_word_7">το κορίτσι</string>
+    <string name="five_gr_word_8">το αγόρι</string>
+    <string name="five_gr_word_9">δε(ν)</string>
+    <string name="five_gr_word_10">αρκετά</string>
+    <string name="five_gr_word_11">λίγο</string>
+    <string name="five_gr_word_12">καθόλου</string>
+    <string name="five_gr_word_13">μιλάω λίγο αγγλικά</string>
+    <string name="five_gr_word_14">δεν μιλάω γερμανικά καθόλου</string>
+    <string name="five_gr_word_15">μιλάω ιταλικά αρκετά καλά</string>
+    <string name="five_gr_word_16">τα αραβικά</string>
+    <string name="five_gr_word_17">τα αγγλικά</string>
+    <string name="five_gr_word_18">τα γαλλικά</string>
+    <string name="five_gr_word_19">τα ρωσικά</string>
+    <string name="five_gr_word_20">τα γερμανικά</string>
+    <string name="five_gr_word_21">τα ισπανικά</string>
+    <string name="five_gr_word_22">τα ιταλικά</string>
+    <string name="five_gr_word_23">τα αλβανικά</string>
+    <string name="five_gr_word_24">τα κινέζικα</string>
+    <string name="five_gr_word_25">τα γιαπωνέζικα</string>
+    <string name="five_gr_word_26">τα σουηδικά</string>
+    <string name="five_gr_word_27">τα τουρκικά</string>
+    <string name="five_gr_word_28">ο σύντροφος</string>
+    <string name="five_gr_word_29">η κόρη</string>
+    <string name="five_gr_word_30">ο γιος</string>
+    <string name="five_gr_word_31">ο πατέρας</string>
+    <string name="five_gr_word_32">η μητέρα</string>
+    <string name="five_gr_word_33">ο αδερφός</string>
+    <string name="five_gr_word_34">η αδερφή</string>
+    <string name="five_gr_word_35">παίζω</string>
+    <string name="five_gr_word_36">το θέατρο</string>
+    <string name="five_gr_word_37">ο φίλος</string>
+    <string name="five_gr_word_38">η φίλη</string>
+    <string name="five_gr_word_39">π.χ.</string>
+    <string name="five_gr_word_40">το παράδειγμα</string>
+    <string name="five_gr_word_41">για παράδειγμα</string>
+    <string name="five_gr_word_42">χωρισμένος</string>
+    <string name="five_gr_word_43">η γυναίκα</string>
+    <string name="five_gr_word_44">ο άντρας</string>
+
+    <!-- Dutch words for lesson 6 -->
+
+    <string name="six_nl_word_1">herhaling</string>
+    <string name="six_nl_word_2">afbeelding</string>
+    <string name="six_nl_word_3">fout</string>
+    <string name="six_nl_word_4">vinden</string>
+    <string name="six_nl_word_5">taal</string>
+    <string name="six_nl_word_6">slechts</string>
+    <string name="six_nl_word_7">klas</string>
+    <string name="six_nl_word_8">kennen</string>
+    <string name="six_nl_word_9">doos</string>
+    <string name="six_nl_word_10">straat</string>
+    <string name="six_nl_word_11">instemmen</string>
+    <string name="six_nl_word_12">ziekenhuis</string>
+    <string name="six_nl_word_13">passen</string>
+    <string name="six_nl_word_14">getal</string>
+    <string name="six_nl_word_15">gezin, familie</string>
+    <string name="six_nl_word_16">adres</string>
+
+    <!-- Greek words for lesson 6 -->
+    <string name="six_gr_word_1">η επανάληψη</string>
+    <string name="six_gr_word_2">ο πίνακας</string>
+    <string name="six_gr_word_3">το λάθος</string>
+    <string name="six_gr_word_4">βρίσκω</string>
+    <string name="six_gr_word_5">η γλώσσα</string>
+    <string name="six_gr_word_6">μόνο</string>
+    <string name="six_gr_word_7">η τάξη</string>
+    <string name="six_gr_word_8">ξέρω</string>
+    <string name="six_gr_word_9">το κουτί</string>
+    <string name="six_gr_word_10">η οδός</string>
+    <string name="six_gr_word_11">συμφωνώ</string>
+    <string name="six_gr_word_12">το νοσοκομείο</string>
+    <string name="six_gr_word_13">ταιριάζω</string>
+    <string name="six_gr_word_14">ο αριθμός</string>
+    <string name="six_gr_word_15">η οικογένεια</string>
+    <string name="six_gr_word_16">η διεύθυνση</string>
+
+    <!-- Dutch words for lesson 7 -->
+    <string name="seven_nl_word_1">hoeveel</string>
+    <string name="seven_nl_word_2">kosten</string>
+    <string name="seven_nl_word_3">hoeveel kost het horloge?</string>
+    <string name="seven_nl_word_4">horloge</string>
+    <string name="seven_nl_word_5">willen</string>
+    <string name="seven_nl_word_6">ik zou graag willen</string>
+    <string name="seven_nl_word_7">paraplu</string>
+    <string name="seven_nl_word_8">zeker</string>
+    <string name="seven_nl_word_9">ik vind leuk</string>
+    <string name="seven_nl_word_10">jij vindt leuk</string>
+    <string name="seven_nl_word_11">zij vindt leuk</string>
+    <string name="seven_nl_word_12">u vindt leuk</string>
+    <string name="seven_nl_word_13">ik vind de paraplu leuk</string>
+    <string name="seven_nl_word_14">euro</string>
+    <string name="seven_nl_word_15">cent</string>
+    <string name="seven_nl_word_16">aansteker</string>
+    <string name="seven_nl_word_17">hoeveel kost</string>
+    <string name="seven_nl_word_18">cadeau</string>
+    <string name="seven_nl_word_19">begrijpen</string>
+    <string name="seven_nl_word_20">welnu</string>
+    <string name="seven_nl_word_21">oké</string>
+    <string name="seven_nl_word_22">wisselgeld</string>
+    <string name="seven_nl_word_23">pardon</string>
+    <string name="seven_nl_word_24">bon</string>
+    <string name="seven_nl_word_25">computer</string>
+    <string name="seven_nl_word_26">envelop</string>
+    <string name="seven_nl_word_27">motor</string>
+    <string name="seven_nl_word_28">boek</string>
+    <string name="seven_nl_word_29">beeld</string>
+    <string name="seven_nl_word_30">stoel</string>
+    <string name="seven_nl_word_31">portemonnee</string>
+    <string name="seven_nl_word_32">televisie</string>
+    <string name="seven_nl_word_33">auto</string>
+    <string name="seven_nl_word_34">souvlaki</string>
+    <string name="seven_nl_word_35">munt</string>
+    <string name="seven_nl_word_36">krant</string>
+    <string name="seven_nl_word_37">tuin</string>
+    <string name="seven_nl_word_38">zaklamp</string>
+    <string name="seven_nl_word_39">lire</string>
+    <string name="seven_nl_word_40">kroon</string>
+    <string name="seven_nl_word_41">dollar</string>
+    <string name="seven_nl_word_42">roebel</string>
+    <string name="seven_nl_word_43">yen</string>
+    <string name="seven_nl_word_44">lev</string>
+    <string name="seven_nl_word_45">betekenen</string>
+    <string name="seven_nl_word_46">tiropita</string>
+    <string name="seven_nl_word_47">water</string>
+    <string name="seven_nl_word_48">wijn</string>
+    <string name="seven_nl_word_49">melk</string>
+    <string name="seven_nl_word_50">zeep</string>
+    <string name="seven_nl_word_51">lift</string>
+    <string name="seven_nl_word_52">pen</string>
+    <string name="seven_nl_word_53">CD</string>
+    <string name="seven_nl_word_54">kijkt u eens</string>
+    <string name="seven_nl_word_55">miljoen</string>
+    <string name="seven_nl_word_56">tweeduizend</string>
+
+    <!-- Greek words for lesson 7 -->
+
+    <string name="seven_gr_word_1">πόσο</string>
+    <string name="seven_gr_word_2">κάνω</string>
+    <string name="seven_gr_word_3">πόσο κάνει το ρολόι;</string>
+    <string name="seven_gr_word_4">το ρολόι</string>
+    <string name="seven_gr_word_5">θέλω</string>
+    <string name="seven_gr_word_6">θα ήθελα</string>
+    <string name="seven_gr_word_7">η ομπρέλα</string>
+    <string name="seven_gr_word_8">βεβαίως</string>
+    <string name="seven_gr_word_9">μ\'αρέσει</string>
+    <string name="seven_gr_word_10">σ\'αρέσει</string>
+    <string name="seven_gr_word_11">της αρέσει</string>
+    <string name="seven_gr_word_12">σας αρέσει</string>
+    <string name="seven_gr_word_13">μ΄αρέσει η ομπρέλα</string>
+    <string name="seven_gr_word_14">το ευρώ</string>
+    <string name="seven_gr_word_15">το λεπτό</string>
+    <string name="seven_gr_word_16">ο αναπτήρας</string>
+    <string name="seven_gr_word_17">πόσο έχει</string>
+    <string name="seven_gr_word_18">το δώρο</string>
+    <string name="seven_gr_word_19">καταλαβαίνω</string>
+    <string name="seven_gr_word_20">λοιπόν</string>
+    <string name="seven_gr_word_21">εντάξει</string>
+    <string name="seven_gr_word_22">τα ρέστα</string>
+    <string name="seven_gr_word_23">συγνώμη</string>
+    <string name="seven_gr_word_24">η απόδειξη</string>
+    <string name="seven_gr_word_25">ο υπολογιστής</string>
+    <string name="seven_gr_word_26">ο φάκελος</string>
+    <string name="seven_gr_word_27">η μηχανή</string>
+    <string name="seven_gr_word_28">το βιβλίο</string>
+    <string name="seven_gr_word_29">το άγαλμα</string>
+    <string name="seven_gr_word_30">η καρέκλα</string>
+    <string name="seven_gr_word_31">το πορτοφόλι</string>
+    <string name="seven_gr_word_32">η τηλεόραση</string>
+    <string name="seven_gr_word_33">το αυτοκίνητο</string>
+    <string name="seven_gr_word_34">το σουβλάκι</string>
+    <string name="seven_gr_word_35">το κέρμα</string>
+    <string name="seven_gr_word_36">η εφημερίδα</string>
+    <string name="seven_gr_word_37">ο κήπος</string>
+    <string name="seven_gr_word_38">ο φακός</string>
+    <string name="seven_gr_word_39">η λίρα</string>
+    <string name="seven_gr_word_40">η κορόνα</string>
+    <string name="seven_gr_word_41">το δολάριο</string>
+    <string name="seven_gr_word_42">το ρούβλι</string>
+    <string name="seven_gr_word_43">το γιεν</string>
+    <string name="seven_gr_word_44">το λεβ</string>
+    <string name="seven_gr_word_45">σημαίνω</string>
+    <string name="seven_gr_word_46">η τυρόπιτα</string>
+    <string name="seven_gr_word_47">το νερό</string>
+    <string name="seven_gr_word_48">το κρασί</string>
+    <string name="seven_gr_word_49">το γάλα</string>
+    <string name="seven_gr_word_50">το σαπούνι</string>
+    <string name="seven_gr_word_51">το ασανσέρ</string>
+    <string name="seven_gr_word_52">το στιλό</string>
+    <string name="seven_gr_word_53">το CD</string>
+    <string name="seven_gr_word_54">ορίστε</string>
+    <string name="seven_gr_word_55">το εκατομμύριο</string>
+    <string name="seven_gr_word_56">δύο χιλιάδες</string>
+
+    <!-- Dutch words for lesson 8 -->
+    <string name="eight_nl_word_1">mooi, leuk</string>
+    <string name="eight_nl_word_2">feestje</string>
+    <string name="eight_nl_word_3">of</string>
+    <string name="eight_nl_word_4">bier</string>
+    <string name="eight_nl_word_5">glas</string>
+    <string name="eight_nl_word_6">op je gezondheid</string>
+    <string name="eight_nl_word_7">proost</string>
+    <string name="eight_nl_word_8">zeg me eens</string>
+    <string name="eight_nl_word_9">daar</string>
+    <string name="eight_nl_word_10">naast</string>
+    <string name="eight_nl_word_11">naast Monika</string>
+    <string name="eight_nl_word_12">goed, aardig</string>
+    <string name="eight_nl_word_13">wie</string>
+    <string name="eight_nl_word_14">Wie is zij?</string>
+    <string name="eight_nl_word_15">Wie is hij?</string>
+    <string name="eight_nl_word_16">nieuw</string>
+    <string name="eight_nl_word_17">leerlinge</string>
+    <string name="eight_nl_word_18">klas</string>
+    <string name="eight_nl_word_19">meisje</string>
+    <string name="eight_nl_word_20">les</string>
+    <string name="eight_nl_word_21">architect</string>
+    <string name="eight_nl_word_22">bankemployee</string>
+    <string name="eight_nl_word_23">enz.</string>
+    <string name="eight_nl_word_24">enzovoorts</string>
+    <string name="eight_nl_word_25">vriendin</string>
+    <string name="eight_nl_word_26">journalist</string>
+    <string name="eight_nl_word_27">bij</string>
+    <string name="eight_nl_word_28">bij het centrum</string>
+    <string name="eight_nl_word_29">Griek</string>
+    <string name="eight_nl_word_30">Italiaan</string>
+    <string name="eight_nl_word_31">Engelsman</string>
+    <string name="eight_nl_word_32">Amerikaan</string>
+    <string name="eight_nl_word_33">Rus</string>
+    <string name="eight_nl_word_34">Canadees</string>
+    <string name="eight_nl_word_35">Zweed</string>
+    <string name="eight_nl_word_36">Pool</string>
+    <string name="eight_nl_word_37">Australiër</string>
+    <string name="eight_nl_word_38">Chinees</string>
+    <string name="eight_nl_word_39">Japanner</string>
+    <string name="eight_nl_word_40">Indiër</string>
+    <string name="eight_nl_word_41">Albanees</string>
+    <string name="eight_nl_word_42">Israëliër</string>
+    <string name="eight_nl_word_43">Roemeen</string>
+    <string name="eight_nl_word_44">Bulgaar</string>
+    <string name="eight_nl_word_45">Turk</string>
+    <string name="eight_nl_word_46">Griekse</string>
+    <string name="eight_nl_word_47">Engelse</string>
+    <string name="eight_nl_word_48">Amerikaanse</string>
+    <string name="eight_nl_word_49">Russische</string>
+    <string name="eight_nl_word_50">Canadese</string>
+    <string name="eight_nl_word_51">Zweedse</string>
+    <string name="eight_nl_word_52">Poolse</string>
+    <string name="eight_nl_word_53">Australische</string>
+    <string name="eight_nl_word_54">Chinese</string>
+    <string name="eight_nl_word_55">Japanse</string>
+    <string name="eight_nl_word_56">Indische</string>
+    <string name="eight_nl_word_57">Albanese</string>
+    <string name="eight_nl_word_58">Israëlische</string>
+    <string name="eight_nl_word_59">Roemeense</string>
+    <string name="eight_nl_word_60">Bulgaarse</string>
+    <string name="eight_nl_word_61">Turkse</string>
+    <string name="eight_nl_word_62">duur</string>
+    <string name="eight_nl_word_63">goedkoop</string>
+    <string name="eight_nl_word_64">klein</string>
+    <string name="eight_nl_word_65">schoon</string>
+    <string name="eight_nl_word_66">groot</string>
+    <string name="eight_nl_word_67">lelijk</string>
+    <string name="eight_nl_word_68">vies</string>
+    <string name="eight_nl_word_69">oud</string>
+    <string name="eight_nl_word_70">schrift</string>
+    <string name="eight_nl_word_71">tafel</string>
+    <string name="eight_nl_word_72">schilderij</string>
+
+    <!-- Greek words for lesson 8 -->
+    <string name="eight_gr_word_1">ωραίος</string>
+    <string name="eight_gr_word_2">το πάρτι</string>
+    <string name="eight_gr_word_3">ή</string>
+    <string name="eight_gr_word_4">η μπίρα</string>
+    <string name="eight_gr_word_5">το ποτήρι</string>
+    <string name="eight_gr_word_6">στην υγειά σου</string>
+    <string name="eight_gr_word_7">γεια μας</string>
+    <string name="eight_gr_word_8">δε μου λες</string>
+    <string name="eight_gr_word_9">εκεί</string>
+    <string name="eight_gr_word_10">δίπλα σε</string>
+    <string name="eight_gr_word_11">δίπλα στη Μόνικα</string>
+    <string name="eight_gr_word_12">καλός</string>
+    <string name="eight_gr_word_13">ποιος</string>
+    <string name="eight_gr_word_14">Ποια είναι;</string>
+    <string name="eight_gr_word_15">Ποιος είναι;</string>
+    <string name="eight_gr_word_16">καινούργιος</string>
+    <string name="eight_gr_word_17">η μαθήτρια</string>
+    <string name="eight_gr_word_18">η τάξη</string>
+    <string name="eight_gr_word_19">η κοπέλα</string>
+    <string name="eight_gr_word_20">το μάθημα</string>
+    <string name="eight_gr_word_21">ο αρχιτέκτονας</string>
+    <string name="eight_gr_word_22">ο τραπεζικός</string>
+    <string name="eight_gr_word_23">κτλ.</string>
+    <string name="eight_gr_word_24">και τα λοιπά</string>
+    <string name="eight_gr_word_25">η φίλη</string>
+    <string name="eight_gr_word_26">ο δημοσιογράφος</string>
+    <string name="eight_gr_word_27">κοντά σε</string>
+    <string name="eight_gr_word_28">κοντά στο κέντρο</string>
+    <string name="eight_gr_word_29">ο Έλληνας</string>
+    <string name="eight_gr_word_30">ο Ιταλός</string>
+    <string name="eight_gr_word_31">ο Άγγλος</string>
+    <string name="eight_gr_word_32">ο Αμερικανός</string>
+    <string name="eight_gr_word_33">ο Ρώσος</string>
+    <string name="eight_gr_word_34">ο Καναδός</string>
+    <string name="eight_gr_word_35">ο Σουηδός</string>
+    <string name="eight_gr_word_36">ο Πολωνός</string>
+    <string name="eight_gr_word_37">ο Αυστραλός</string>
+    <string name="eight_gr_word_38">ο Κινέζος</string>
+    <string name="eight_gr_word_39">ο Γιαπωνέζος</string>
+    <string name="eight_gr_word_40">ο Ινδός</string>
+    <string name="eight_gr_word_41">ο Αλβανός</string>
+    <string name="eight_gr_word_42">ο Ισραηλινός</string>
+    <string name="eight_gr_word_43">ο Ρουμάνος</string>
+    <string name="eight_gr_word_44">ο Βούλγαρος</string>
+    <string name="eight_gr_word_45">ο Τούρκος</string>
+    <string name="eight_gr_word_46">η Ελληνίδα</string>
+    <string name="eight_gr_word_47">η Αγγλίδα</string>
+    <string name="eight_gr_word_48">η Αμερικανίδα</string>
+    <string name="eight_gr_word_49">η Ρωσίδα</string>
+    <string name="eight_gr_word_50">η Καναδέζα</string>
+    <string name="eight_gr_word_51">η Σουηδέζα</string>
+    <string name="eight_gr_word_52">η Πολωνέζα</string>
+    <string name="eight_gr_word_53">η Αυστραλέζα</string>
+    <string name="eight_gr_word_54">η Κινέζα</string>
+    <string name="eight_gr_word_55">η Ιαπωνέζα</string>
+    <string name="eight_gr_word_56">η Ινδή</string>
+    <string name="eight_gr_word_57">η Αλβανή</string>
+    <string name="eight_gr_word_58">η Ισραηλινή</string>
+    <string name="eight_gr_word_59">η Ρουμάνα</string>
+    <string name="eight_gr_word_60">η Βουλγάρα</string>
+    <string name="eight_gr_word_61">η Τουρκάλα</string>
+    <string name="eight_gr_word_62">ακριβός</string>
+    <string name="eight_gr_word_63">φτηνός</string>
+    <string name="eight_gr_word_64">μικρός</string>
+    <string name="eight_gr_word_65">καθαρός</string>
+    <string name="eight_gr_word_66">μεγάλος</string>
+    <string name="eight_gr_word_67">άσχημος</string>
+    <string name="eight_gr_word_68">βρώμικος</string>
+    <string name="eight_gr_word_69">παλιός</string>
+    <string name="eight_gr_word_70">το τετράδιο</string>
+    <string name="eight_gr_word_71">το τραπέζι</string>
+    <string name="eight_gr_word_72">ο πίνακας</string>
+
+    <!-- Dutch words for lesson 9 -->
+
+    <string name="nine_nl_word_1">zo</string>
+    <string name="nine_nl_word_2">leven</string>
+    <string name="nine_nl_word_3">houden van</string>
+    <string name="nine_nl_word_4">maar</string>
+    <string name="nine_nl_word_5">maar (toch)</string>
+    <string name="nine_nl_word_6">verliefd op</string>
+    <string name="nine_nl_word_7">helaas</string>
+    <string name="nine_nl_word_8">nee, niet</string>
+    <string name="nine_nl_word_9">wat doe je eraan?</string>
+    <string name="nine_nl_word_10">aansteker</string>
+    <string name="nine_nl_word_11">computer</string>
+    <string name="nine_nl_word_12">motor</string>
+    <string name="nine_nl_word_13">stoel</string>
+    <string name="nine_nl_word_14">kind</string>
+    <string name="nine_nl_word_15">boek</string>
+    <string name="nine_nl_word_16">portemonnee</string>
+    <string name="nine_nl_word_17">willen</string>
+    <string name="nine_nl_word_18">krant</string>
+    <string name="nine_nl_word_19">beeld</string>
+    <string name="nine_nl_word_20">adres</string>
+    <string name="nine_nl_word_21">nieuw</string>
+    <string name="nine_nl_word_22">leerlinge</string>
+    <string name="nine_nl_word_23">jaren</string>
+    <string name="nine_nl_word_24">hoe oud ben je?</string>
+    <string name="nine_nl_word_25">klein, jong</string>
+    <string name="nine_nl_word_26">groot, oud</string>
+    <string name="nine_nl_word_27">potlood</string>
+    <string name="nine_nl_word_28">zaklamp</string>
+    <string name="nine_nl_word_29">auto</string>
+    <string name="nine_nl_word_30">tuin</string>
+    <string name="nine_nl_word_31">gaan</string>
+    <string name="nine_nl_word_32">kantoor, bureau</string>
+    <string name="nine_nl_word_33">worden, gebeuren</string>
+    <string name="nine_nl_word_34">het leuk hebben</string>
+    <string name="nine_nl_word_35">langskomen</string>
+    <string name="nine_nl_word_36">eten</string>
+    <string name="nine_nl_word_37">luisteren, horen</string>
+    <string name="nine_nl_word_38">muziek</string>
+    <string name="nine_nl_word_39">zozo</string>
+    <string name="nine_nl_word_40">werk</string>
+    <string name="nine_nl_word_41">ik ga naar huis</string>
+    <string name="nine_nl_word_42">school</string>
+    <string name="nine_nl_word_43">heel goed</string>
+    <string name="nine_nl_word_44">groeten</string>
+    <string name="nine_nl_word_45">welnu</string>
+    <string name="nine_nl_word_46">we spreken elkaar</string>
+    <string name="nine_nl_word_47">komen</string>
+    <string name="nine_nl_word_48">denken</string>
+    <string name="nine_nl_word_49">lelijk</string>
+    <string name="nine_nl_word_50">klant</string>
+    <string name="nine_nl_word_51">ijs</string>
+    <string name="nine_nl_word_52">werkwoord</string>
+    <string name="nine_nl_word_53">glas</string>
+    <string name="nine_nl_word_54">wijn</string>
+    <string name="nine_nl_word_55">naam</string>
+    <string name="nine_nl_word_56">asbak</string>
+
+    <!-- Greek words for lesson 9 -->
+
+    <string name="nine_gr_word_1">έτσι</string>
+    <string name="nine_gr_word_2">η ζωή</string>
+    <string name="nine_gr_word_3">αγαπάω</string>
+    <string name="nine_gr_word_4">αλλά</string>
+    <string name="nine_gr_word_5">όμως</string>
+    <string name="nine_gr_word_6">ερωτευμένος με</string>
+    <string name="nine_gr_word_7">δυστυχώς</string>
+    <string name="nine_gr_word_8">όχι</string>
+    <string name="nine_gr_word_9">τί να κάνουμε;</string>
+    <string name="nine_gr_word_10">ο αναπτήρας</string>
+    <string name="nine_gr_word_11">ο υπολογιστής</string>
+    <string name="nine_gr_word_12">η μηχανή</string>
+    <string name="nine_gr_word_13">η καρέκλα</string>
+    <string name="nine_gr_word_14">το παιδί</string>
+    <string name="nine_gr_word_15">το βιβλίο</string>
+    <string name="nine_gr_word_16">το πορτοφόλι</string>
+    <string name="nine_gr_word_17">θέλω</string>
+    <string name="nine_gr_word_18">η εφημερίδα</string>
+    <string name="nine_gr_word_19">το άγαλμα</string>
+    <string name="nine_gr_word_20">η διεύθυνση</string>
+    <string name="nine_gr_word_21">καινούργιος</string>
+    <string name="nine_gr_word_22">η μαθήτρια</string>
+    <string name="nine_gr_word_23">τα χρόνια</string>
+    <string name="nine_gr_word_24">πόσω χρονών είσαι;</string>
+    <string name="nine_gr_word_25">μικρός</string>
+    <string name="nine_gr_word_26">μεγάλος</string>
+    <string name="nine_gr_word_27">το μολύβι</string>
+    <string name="nine_gr_word_28">ο φακός</string>
+    <string name="nine_gr_word_29">το αυτοκίνητο</string>
+    <string name="nine_gr_word_30">ο κήπος</string>
+    <string name="nine_gr_word_31">πάω</string>
+    <string name="nine_gr_word_32">το γραφείο</string>
+    <string name="nine_gr_word_33">γίνομαι</string>
+    <string name="nine_gr_word_34">περνάω καλά</string>
+    <string name="nine_gr_word_35">περνάω</string>
+    <string name="nine_gr_word_36">τρώω</string>
+    <string name="nine_gr_word_37">ακούω</string>
+    <string name="nine_gr_word_38">η μουσική</string>
+    <string name="nine_gr_word_39">έτσι κι έτσι</string>
+    <string name="nine_gr_word_40">η δουλειά</string>
+    <string name="nine_gr_word_41">πάω σπίτι</string>
+    <string name="nine_gr_word_42">το σχολείο</string>
+    <string name="nine_gr_word_43">μια χαρά</string>
+    <string name="nine_gr_word_44">χαιρετίσματα</string>
+    <string name="nine_gr_word_45">λοιπόν</string>
+    <string name="nine_gr_word_46">τα λέμε</string>
+    <string name="nine_gr_word_47">έρχομαι</string>
+    <string name="nine_gr_word_48">σκέφτομαι</string>
+    <string name="nine_gr_word_49">άσχημος</string>
+    <string name="nine_gr_word_50">ο πελάτης</string>
+    <string name="nine_gr_word_51">το παγωτό</string>
+    <string name="nine_gr_word_52">το ρήμα</string>
+    <string name="nine_gr_word_53">το ποτήρι</string>
+    <string name="nine_gr_word_54">το κρασί</string>
+    <string name="nine_gr_word_55">το όνομα</string>
+    <string name="nine_gr_word_56">το τασάκι</string>
+
+    <!-- Dutch words for lesson 10 -->
+    <string name="ten_nl_word_1">hoe laat is het?</string>
+    <string name="ten_nl_word_2">dag</string>
+    <string name="ten_nl_word_3">vandaag</string>
+    <string name="ten_nl_word_4">vrijdag</string>
+    <string name="ten_nl_word_5">oh</string>
+    <string name="ten_nl_word_6">afspraak</string>
+    <string name="ten_nl_word_7">zich herinneren</string>
+    <string name="ten_nl_word_8">agenda</string>
+    <string name="ten_nl_word_9">mijn</string>
+    <string name="ten_nl_word_10">mijn agenda</string>
+    <string name="ten_nl_word_11">om half elf</string>
+    <string name="ten_nl_word_12">nu</string>
+    <string name="ten_nl_word_13">weggaan, vertrekken</string>
+    <string name="ten_nl_word_14">samen met mij</string>
+    <string name="ten_nl_word_15">kunnen</string>
+    <string name="ten_nl_word_16">nog</string>
+    <string name="ten_nl_word_17">het spijt me</string>
+    <string name="ten_nl_word_18">het geeft niet</string>
+    <string name="ten_nl_word_19">kom</string>
+    <string name="ten_nl_word_20">maandag</string>
+    <string name="ten_nl_word_21">weekend</string>
+    <string name="ten_nl_word_22">ook</string>
+    <string name="ten_nl_word_23">het is een uur</string>
+    <string name="ten_nl_word_24">het is twee uur</string>
+    <string name="ten_nl_word_25">het is drie uur</string>
+    <string name="ten_nl_word_26">het is vier uur</string>
+    <string name="ten_nl_word_27">het is vijf over twee</string>
+    <string name="ten_nl_word_28">het is kwart over twee</string>
+    <string name="ten_nl_word_29">het is half drie</string>
+    <string name="ten_nl_word_30">het is vijf over half drie</string>
+    <string name="ten_nl_word_31">het is kwart voor drie</string>
+    <string name="ten_nl_word_32">het is vijf voor drie</string>
+    <string name="ten_nl_word_33">half twee</string>
+    <string name="ten_nl_word_34">half drie</string>
+    <string name="ten_nl_word_35">half vier</string>
+    <string name="ten_nl_word_36">half vijf</string>
+    <string name="ten_nl_word_37">half zes</string>
+    <string name="ten_nl_word_38">half zeven</string>
+    <string name="ten_nl_word_39">half acht</string>
+    <string name="ten_nl_word_40">half negen</string>
+    <string name="ten_nl_word_41">half tien</string>
+    <string name="ten_nl_word_42">half elf</string>
+    <string name="ten_nl_word_43">half twaalf</string>
+    <string name="ten_nl_word_44">half een</string>
+    <string name="ten_nl_word_45">seconde</string>
+    <string name="ten_nl_word_46">ochtend</string>
+    <string name="ten_nl_word_47">middag</string>
+    <string name="ten_nl_word_48">namiddag</string>
+    <string name="ten_nl_word_49">avond</string>
+    <string name="ten_nl_word_50">beginnen</string>
+    <string name="ten_nl_word_51">eindigen</string>
+    <string name="ten_nl_word_52">supermarkt</string>
+    <string name="ten_nl_word_53">openen</string>
+    <string name="ten_nl_word_54">sluiten</string>
+    <string name="ten_nl_word_55">trein</string>
+    <string name="ten_nl_word_56">arriveren</string>
+    <string name="ten_nl_word_57">vliegtuig</string>
+    <string name="ten_nl_word_58">om tien uur \'s ochtends</string>
+    <string name="ten_nl_word_59">om een uur \'s middags</string>
+    <string name="ten_nl_word_60">vlucht</string>
+    <string name="ten_nl_word_61">middernacht</string>
+    <string name="ten_nl_word_62">volgend</string>
+    <string name="ten_nl_word_63">signaal, accent</string>
+    <string name="ten_nl_word_64">zondag</string>
+    <string name="ten_nl_word_65">maandag</string>
+    <string name="ten_nl_word_66">dinsdag</string>
+    <string name="ten_nl_word_67">woensdag</string>
+    <string name="ten_nl_word_68">donderdag</string>
+    <string name="ten_nl_word_69">vrijdag</string>
+    <string name="ten_nl_word_70">zaterdag</string>
+    <string name="ten_nl_word_71">voor</string>
+    <string name="ten_nl_word_72">na</string>
+    <string name="ten_nl_word_73">ik heb les op dinsdag</string>
+    <string name="ten_nl_word_74">van acht uur \'s ochtends</string>
+    <string name="ten_nl_word_75">tot acht uur \'s avonds</string>
+    <string name="ten_nl_word_76">dinsdag tot en met vrijdag geopend</string>
+    <string name="ten_nl_word_77">tot</string>
+    <string name="ten_nl_word_78">tot en met</string>
+    <string name="ten_nl_word_79">laatste</string>
+    <string name="ten_nl_word_80">week</string>
+    <string name="ten_nl_word_81">bekend</string>
+    <string name="ten_nl_word_82">komedie</string>
+    <string name="ten_nl_word_83">spelen</string>
+    <string name="ten_nl_word_84">voorstelling</string>
+    <string name="ten_nl_word_85">avond-</string>
+    <string name="ten_nl_word_86">middag-</string>
+    <string name="ten_nl_word_87">toegang</string>
+    <string name="ten_nl_word_88">student</string>
+    <string name="ten_nl_word_89">restaurant</string>
+    <string name="ten_nl_word_90">modern</string>
+    <string name="ten_nl_word_91">ruimte</string>
+    <string name="ten_nl_word_92">keuken</string>
+    <string name="ten_nl_word_93">voorgerecht</string>
+    <string name="ten_nl_word_94">internationaal</string>
+    <string name="ten_nl_word_95">hoofdgerecht</string>
+    <string name="ten_nl_word_96">dagelijks</string>
+    <string name="ten_nl_word_97">muis</string>
+    <string name="ten_nl_word_98">museum</string>
+    <string name="ten_nl_word_99">archeologisch</string>
+    <string name="ten_nl_word_100">begin</string>
+    <string name="ten_nl_word_101">verdieping</string>
+    <string name="ten_nl_word_102">kaartje, ticket</string>
+    <string name="ten_nl_word_103">boven</string>
+    <string name="ten_nl_word_104">vrij, gratis</string>
+    <string name="ten_nl_word_105">gaan</string>
+    <string name="ten_nl_word_106">altijd</string>
+    <string name="ten_nl_word_107">metro</string>
+    <string name="ten_nl_word_108">onderwijzen</string>
+    <string name="ten_nl_word_109">wakker worden</string>
+    <string name="ten_nl_word_110">vroeg</string>
+    <string name="ten_nl_word_111">niets</string>
+    <string name="ten_nl_word_112">sapje</string>
+    <string name="ten_nl_word_113">sinaasappel</string>
+    <string name="ten_nl_word_114">rijden</string>
+    <string name="ten_nl_word_115">bus</string>
+    <string name="ten_nl_word_116">te laat komen</string>
+    <string name="ten_nl_word_117">nooit</string>
+    <string name="ten_nl_word_118">meestal</string>
+    <string name="ten_nl_word_119">iets</string>
+    <string name="ten_nl_word_120">vaak</string>
+    <string name="ten_nl_word_121">keer</string>
+    <string name="ten_nl_word_122">een enkele keer</string>
+    <string name="ten_nl_word_123">huiswerk maken, lezen</string>
+    <string name="ten_nl_word_124">wanneer</string>
+    <string name="ten_nl_word_125">moe</string>
+    <string name="ten_nl_word_126">telefoneren</string>
+    <string name="ten_nl_word_127">gezelschap</string>
+    <string name="ten_nl_word_128">uitgaan</string>
+    <string name="ten_nl_word_129">bioscoop</string>
+    <string name="ten_nl_word_130">naar de film gaan</string>
+    <string name="ten_nl_word_131">theater</string>
+    <string name="ten_nl_word_132">eten</string>
+    <string name="ten_nl_word_133">gaan eten</string>
+    <string name="ten_nl_word_134">televisie</string>
+    <string name="ten_nl_word_135">(gaan) slapen</string>
+    <string name="ten_nl_word_136">bijna nooit</string>
+    <string name="ten_nl_word_137">zelden</string>
+    <string name="ten_nl_word_138">nu en dan</string>
+    <string name="ten_nl_word_139">nu en dan</string>
+    <string name="ten_nl_word_140">soms</string>
+    <string name="ten_nl_word_141">dikwijls</string>
+    <string name="ten_nl_word_142">bijna altijd</string>
+    <string name="ten_nl_word_143">ik werk nooit \'s avonds</string>
+    <string name="ten_nl_word_144">bang zijn</string>
+    <string name="ten_nl_word_145">electriciën</string>
+    <string name="ten_nl_word_146">straat</string>
+    <string name="ten_nl_word_147">uw auto</string>
+    <string name="ten_nl_word_148">werkelijk</string>
+    <string name="ten_nl_word_149">de vlucht naar Athene</string>
+    <string name="ten_nl_word_150">geopend</string>
+    <string name="ten_nl_word_151">gesloten</string>
+
+        <!-- Greek words for lesson 10 -->
+    <string name="ten_gr_word_1">τι ώρα είναι;</string>
+    <string name="ten_gr_word_2">η μέρα</string>
+    <string name="ten_gr_word_3">σήμερα</string>
+    <string name="ten_gr_word_4">η Παρασκευή</string>
+    <string name="ten_gr_word_5">πο πο</string>
+    <string name="ten_gr_word_6">το ραντεβού</string>
+    <string name="ten_gr_word_7">θυμάμαι</string>
+    <string name="ten_gr_word_8">η ατζέντα</string>
+    <string name="ten_gr_word_9">μου</string>
+    <string name="ten_gr_word_10">η ατζέντα μου</string>
+    <string name="ten_gr_word_11">στις δέκα και μισή</string>
+    <string name="ten_gr_word_12">τώρα</string>
+    <string name="ten_gr_word_13">φεύγω</string>
+    <string name="ten_gr_word_14">μαζί μου</string>
+    <string name="ten_gr_word_15">μπορώ</string>
+    <string name="ten_gr_word_16">ακόμα</string>
+    <string name="ten_gr_word_17">λυπάμαι</string>
+    <string name="ten_gr_word_18">δεν πειράζει</string>
+    <string name="ten_gr_word_19">έλα</string>
+    <string name="ten_gr_word_20">η Δευτέρα</string>
+    <string name="ten_gr_word_21">το σαββατοκύριακο</string>
+    <string name="ten_gr_word_22">επίσης</string>
+    <string name="ten_gr_word_23">είναι μία η ώρα</string>
+    <string name="ten_gr_word_24">είναι δύο η ώρα</string>
+    <string name="ten_gr_word_25">είναι τρεις η ώρα</string>
+    <string name="ten_gr_word_26">είναι τέσσερις η ώρα</string>
+    <string name="ten_gr_word_27">είναι δύο και πέντε</string>
+    <string name="ten_gr_word_28">είναι δύο και τέταρτο</string>
+    <string name="ten_gr_word_29">είναι δύο και μισή</string>
+    <string name="ten_gr_word_30">είναι τρεις παρά έικοσι πέντε</string>
+    <string name="ten_gr_word_31">είναι τρεις παρά τέταρτο</string>
+    <string name="ten_gr_word_32">είναι τρεις παρά πέντε</string>
+    <string name="ten_gr_word_33">μιάμισι</string>
+    <string name="ten_gr_word_34">δυόμισι</string>
+    <string name="ten_gr_word_35">τρεισήμισι</string>
+    <string name="ten_gr_word_36">τεσσερισήμισι</string>
+    <string name="ten_gr_word_37">πεντέμισι</string>
+    <string name="ten_gr_word_38">εξίμισι</string>
+    <string name="ten_gr_word_39">εφτάμισι</string>
+    <string name="ten_gr_word_40">οχτώμισι</string>
+    <string name="ten_gr_word_41">εννιάμισι</string>
+    <string name="ten_gr_word_42">δεκάμισι</string>
+    <string name="ten_gr_word_43">εντεκάμισι</string>
+    <string name="ten_gr_word_44">δωδεκάμισι</string>
+    <string name="ten_gr_word_45">το δευτερόλεπτο</string>
+    <string name="ten_gr_word_46">το πρωί</string>
+    <string name="ten_gr_word_47">το μεσημέρι</string>
+    <string name="ten_gr_word_48">το απόγευμα</string>
+    <string name="ten_gr_word_49">το βράδυ</string>
+    <string name="ten_gr_word_50">αρχίζω</string>
+    <string name="ten_gr_word_51">τελειώνω</string>
+    <string name="ten_gr_word_52">το σούπερμάρκετ</string>
+    <string name="ten_gr_word_53">ανοίγω</string>
+    <string name="ten_gr_word_54">κλείνω</string>
+    <string name="ten_gr_word_55">το τρένο</string>
+    <string name="ten_gr_word_56">φτάνω</string>
+    <string name="ten_gr_word_57">το αεροπλάνο</string>
+    <string name="ten_gr_word_58">στις δέκα το πρωί</string>
+    <string name="ten_gr_word_59">στη μία το μεσημέρι</string>
+    <string name="ten_gr_word_60">η πτήση</string>
+    <string name="ten_gr_word_61">τα μεσάνυχτα</string>
+    <string name="ten_gr_word_62">επόμενος</string>
+    <string name="ten_gr_word_63">ο τόνος</string>
+    <string name="ten_gr_word_64">η Κυριακή</string>
+    <string name="ten_gr_word_65">η Δευτέρα</string>
+    <string name="ten_gr_word_66">η Τρίτη</string>
+    <string name="ten_gr_word_67">η Τετάρτη</string>
+    <string name="ten_gr_word_68">η Πέμπτη</string>
+    <string name="ten_gr_word_69">η Παρασκευή</string>
+    <string name="ten_gr_word_70">το Σάββατο</string>
+    <string name="ten_gr_word_71">πριν από</string>
+    <string name="ten_gr_word_72">μετά</string>
+    <string name="ten_gr_word_73">έχω μάθημα την Τρίτη</string>
+    <string name="ten_gr_word_74">από τις οχτώ το πρωί</string>
+    <string name="ten_gr_word_75">μέχρι τις οχτώ το βράδυ</string>
+    <string name="ten_gr_word_76">ανοιχτό Δευτέρα έως Παρασκευή</string>
+    <string name="ten_gr_word_77">μέχρι</string>
+    <string name="ten_gr_word_78">έως</string>
+    <string name="ten_gr_word_79">τελευταίος</string>
+    <string name="ten_gr_word_80">η εβδομάδα</string>
+    <string name="ten_gr_word_81">γνωστός</string>
+    <string name="ten_gr_word_82">η κωμοδία</string>
+    <string name="ten_gr_word_83">παίζω</string>
+    <string name="ten_gr_word_84">η παράσταση</string>
+    <string name="ten_gr_word_85">βραδινός</string>
+    <string name="ten_gr_word_86">απογευματινός</string>
+    <string name="ten_gr_word_87">η είσοδος</string>
+    <string name="ten_gr_word_88">φοιτητήςv</string>
+    <string name="ten_gr_word_89">το εστιατόριο</string>
+    <string name="ten_gr_word_90">μοντέρνος</string>
+    <string name="ten_gr_word_91">ο χώρος</string>
+    <string name="ten_gr_word_92">η κουζίνα</string>
+    <string name="ten_gr_word_93">το ορεκτικό</string>
+    <string name="ten_gr_word_94">διεθνής</string>
+    <string name="ten_gr_word_95">το κύριο πιάτο</string>
+    <string name="ten_gr_word_96">καθημερινός</string>
+    <string name="ten_gr_word_97">το ποντίκι</string>
+    <string name="ten_gr_word_98">το μουσείο</string>
+    <string name="ten_gr_word_99">αρχαιολογικός</string>
+    <string name="ten_gr_word_100">η αρχή</string>
+    <string name="ten_gr_word_101">ο όροφος</string>
+    <string name="ten_gr_word_102">το εισιτήριο</string>
+    <string name="ten_gr_word_103">ανώ</string>
+    <string name="ten_gr_word_104">ελεύθερος</string>
+    <string name="ten_gr_word_105">πηγαίνω</string>
+    <string name="ten_gr_word_106">πάντα</string>
+    <string name="ten_gr_word_107">το μετρό</string>
+    <string name="ten_gr_word_108">διδάσκω</string>
+    <string name="ten_gr_word_109">ξυπνάω</string>
+    <string name="ten_gr_word_110">νωρίς</string>
+    <string name="ten_gr_word_111">τίποτε</string>
+    <string name="ten_gr_word_112">χυμό</string>
+    <string name="ten_gr_word_113">πορτοκάλι</string>
+    <string name="ten_gr_word_114">οδηγώ</string>
+    <string name="ten_gr_word_115">το λεωφορείο</string>
+    <string name="ten_gr_word_116">αργώ</string>
+    <string name="ten_gr_word_117">ποτέ</string>
+    <string name="ten_gr_word_118">συνήθως</string>
+    <string name="ten_gr_word_119">κάτι</string>
+    <string name="ten_gr_word_120">συχνά</string>
+    <string name="ten_gr_word_121">η φορά</string>
+    <string name="ten_gr_word_122">καμιά φορά</string>
+    <string name="ten_gr_word_123">διαβάζω</string>
+    <string name="ten_gr_word_124">όταν</string>
+    <string name="ten_gr_word_125">κουρασμένος</string>
+    <string name="ten_gr_word_126">τηλεφωνώ</string>
+    <string name="ten_gr_word_127">η παρέα</string>
+    <string name="ten_gr_word_128">βγαίνω έξω</string>
+    <string name="ten_gr_word_129">το σινεμά</string>
+    <string name="ten_gr_word_130">πηγαίνω σίνεμα</string>
+    <string name="ten_gr_word_131">το θέατρο</string>
+    <string name="ten_gr_word_132">το φαγητό</string>
+    <string name="ten_gr_word_133">πηγαίνω για φαγητό</string>
+    <string name="ten_gr_word_134">η τηλεόραση</string>
+    <string name="ten_gr_word_135">κοιμάμαι</string>
+    <string name="ten_gr_word_136">σχεδόν ποτέ</string>
+    <string name="ten_gr_word_137">σπάνια</string>
+    <string name="ten_gr_word_138">κάπου κάπου</string>
+    <string name="ten_gr_word_139">πότε πότε</string>
+    <string name="ten_gr_word_140">μερικές φορές</string>
+    <string name="ten_gr_word_141">πολλές φορές</string>
+    <string name="ten_gr_word_142">σχεδόν πάντα</string>
+    <string name="ten_gr_word_143">ποτέ δεν δουλεύω το βράδυ</string>
+    <string name="ten_gr_word_144">φοβάμαι</string>
+    <string name="ten_gr_word_145">ο ηλεκτρολόγος</string>
+    <string name="ten_gr_word_146">η οδός</string>
+    <string name="ten_gr_word_147">το αυτοκίνητό σας</string>
+    <string name="ten_gr_word_148">αλήθεια</string>
+    <string name="ten_gr_word_149">η πτήση για Αθήνα</string>
+    <string name="ten_gr_word_150">ανοιχτό</string>
+    <string name="ten_gr_word_151">κλειστό</string>
+
+    <!-- Dutch words for lesson 11 -->
+
+    <string name="eleven_nl_word_1">er zijn, bestaan</string>
+    <string name="eleven_nl_word_2">(n)iemand</string>
+    <string name="eleven_nl_word_3">apotheek</string>
+    <string name="eleven_nl_word_4">neemt u mij niet kwalijk</string>
+    <string name="eleven_nl_word_5">boven</string>
+    <string name="eleven_nl_word_6">meer</string>
+    <string name="eleven_nl_word_7">meter, maatregel</string>
+    <string name="eleven_nl_word_8">ongeveer</string>
+    <string name="eleven_nl_word_9">hiervandaan</string>
+    <string name="eleven_nl_word_10">sorry</string>
+    <string name="eleven_nl_word_11">Is er een apotheek in de buurt?</string>
+    <string name="eleven_nl_word_12">plein</string>
+    <string name="eleven_nl_word_13">tegenover</string>
+    <string name="eleven_nl_word_14">ver weg</string>
+    <string name="eleven_nl_word_15">voet</string>
+    <string name="eleven_nl_word_16">te voet, lopend</string>
+    <string name="eleven_nl_word_17">geen dank</string>
+    <string name="eleven_nl_word_18">bakker</string>
+    <string name="eleven_nl_word_19">pizzeria</string>
+    <string name="eleven_nl_word_20">benzinestation</string>
+    <string name="eleven_nl_word_21">taverna</string>
+    <string name="eleven_nl_word_22">postkantoor</string>
+    <string name="eleven_nl_word_23">souvlakitent</string>
+    <string name="eleven_nl_word_24">loodgieter</string>
+    <string name="eleven_nl_word_25">parkeerterrein</string>
+    <string name="eleven_nl_word_26">bioscoop</string>
+    <string name="eleven_nl_word_27">Er is geen loodgieter</string>
+    <string name="eleven_nl_word_28">Is er een taverna in de buurt?</string>
+    <string name="eleven_nl_word_29">naast</string>
+    <string name="eleven_nl_word_30">bij</string>
+    <string name="eleven_nl_word_31">achter</string>
+    <string name="eleven_nl_word_32">ver van</string>
+    <string name="eleven_nl_word_33">voor</string>
+    <string name="eleven_nl_word_34">halte</string>
+    <string name="eleven_nl_word_35">station</string>
+    <string name="eleven_nl_word_36">kliniek</string>
+    <string name="eleven_nl_word_37">boekhandel</string>
+    <string name="eleven_nl_word_38">bijna</string>
+    <string name="eleven_nl_word_39">hoek</string>
+    <string name="eleven_nl_word_40">eerste</string>
+    <string name="eleven_nl_word_41">tweede</string>
+    <string name="eleven_nl_word_42">derde</string>
+    <string name="eleven_nl_word_43">vierde</string>
+    <string name="eleven_nl_word_44">op de hoek van Eleftherias en Naxou</string>
+    <string name="eleven_nl_word_45">kaart, menu</string>
+    <string name="eleven_nl_word_46">zeker</string>
+    <string name="eleven_nl_word_47">serveren</string>
+    <string name="eleven_nl_word_48">ontbijt</string>
+    <string name="eleven_nl_word_49">brood</string>
+    <string name="eleven_nl_word_50">boter</string>
+    <string name="eleven_nl_word_51">jam</string>
+    <string name="eleven_nl_word_52">honing</string>
+    <string name="eleven_nl_word_53">koffie</string>
+    <string name="eleven_nl_word_54">thee</string>
+    <string name="eleven_nl_word_55">sinaasappel</string>
+    <string name="eleven_nl_word_56">sinaasappelsap</string>
+    <string name="eleven_nl_word_57">ik wil graag</string>
+    <string name="eleven_nl_word_58">ik wil graag een sinaasappelsap</string>
+    <string name="eleven_nl_word_59">ik wil graag een griekse koffie</string>
+    <string name="eleven_nl_word_60">griekse koffie</string>
+    <string name="eleven_nl_word_61">halfzoet</string>
+    <string name="eleven_nl_word_62">croissant</string>
+    <string name="eleven_nl_word_63">chocola</string>
+    <string name="eleven_nl_word_64">frapé</string>
+    <string name="eleven_nl_word_65">melk</string>
+    <string name="eleven_nl_word_66">zonder</string>
+    <string name="eleven_nl_word_67">suiker</string>
+    <string name="eleven_nl_word_68">tosti</string>
+    <string name="eleven_nl_word_69">kaas</string>
+    <string name="eleven_nl_word_70">water</string>
+    <string name="eleven_nl_word_71">rekening</string>
+    <string name="eleven_nl_word_72">wisselgeld</string>
+    <string name="eleven_nl_word_73">het is goed zo</string>
+    <string name="eleven_nl_word_74">middagmaaltijd</string>
+    <string name="eleven_nl_word_75">avondmaaltijd</string>
+    <string name="eleven_nl_word_76">ham</string>
+    <string name="eleven_nl_word_77">gebakje</string>
+    <string name="eleven_nl_word_78">coca cola</string>
+    <string name="eleven_nl_word_79">espresso</string>
+    <string name="eleven_nl_word_80">banaan</string>
+    <string name="eleven_nl_word_81">filterkoffie</string>
+    <string name="eleven_nl_word_82">broodje</string>
+    <string name="eleven_nl_word_83">baguette</string>
+    <string name="eleven_nl_word_84">gerookt</string>
+    <string name="eleven_nl_word_85">kalkoen</string>
+    <string name="eleven_nl_word_86">tomaat</string>
+    <string name="eleven_nl_word_87">sla</string>
+    <string name="eleven_nl_word_88">profiterol</string>
+    <string name="eleven_nl_word_89">crème</string>
+    <string name="eleven_nl_word_90">taart</string>
+    <string name="eleven_nl_word_91">appeltaart</string>
+    <string name="eleven_nl_word_92">notentaart</string>
+    <string name="eleven_nl_word_93">baklava</string>
+    <string name="eleven_nl_word_94">vanille</string>
+    <string name="eleven_nl_word_95">aardbei</string>
+    <string name="eleven_nl_word_96">citroen</string>
+    <string name="eleven_nl_word_97">grapefruit</string>
+    <string name="eleven_nl_word_98">sinas</string>
+    <string name="eleven_nl_word_99">witte wijn</string>
+    <string name="eleven_nl_word_100">rode wijn</string>
+    <string name="eleven_nl_word_101">prijs</string>
+    <string name="eleven_nl_word_102">theelepel</string>
+    <string name="eleven_nl_word_103">kopje</string>
+    <string name="eleven_nl_word_104">schoteltje</string>
+    <string name="eleven_nl_word_105">puur</string>
+    <string name="eleven_nl_word_106">met weinig (suiker)</string>
+    <string name="eleven_nl_word_107">zoet</string>
+    <string name="eleven_nl_word_108">roeren</string>
+    <string name="eleven_nl_word_109">erin doen</string>
+    <string name="eleven_nl_word_110">banketbakker</string>
+    <string name="eleven_nl_word_111">bloemenwinkel</string>
+    <string name="eleven_nl_word_112">hotel</string>
+    <string name="eleven_nl_word_113">park</string>
+
+        <!-- Greek words for lesson 11 -->
+
+    <string name="eleven_gr_word_1">υπάρχω</string>
+    <string name="eleven_gr_word_2">κανένας</string>
+    <string name="eleven_gr_word_3">το φαρμακείο</string>
+    <string name="eleven_gr_word_4">με συγχωρείτε</string>
+    <string name="eleven_gr_word_5">πάνω</string>
+    <string name="eleven_gr_word_6">πιο</string>
+    <string name="eleven_gr_word_7">το μέτρο</string>
+    <string name="eleven_gr_word_8">περίπου</string>
+    <string name="eleven_gr_word_9">απ\' εδώ</string>
+    <string name="eleven_gr_word_10">συγνώμη</string>
+    <string name="eleven_gr_word_11">Υπάρχει κανένα φαρμακείο εδώ κοντά;</string>
+    <string name="eleven_gr_word_12">η πλατεία</string>
+    <string name="eleven_gr_word_13">απέναντι από</string>
+    <string name="eleven_gr_word_14">μακριά</string>
+    <string name="eleven_gr_word_15">το πόδι</string>
+    <string name="eleven_gr_word_16">με τα πόδια </string>
+    <string name="eleven_gr_word_17">να \'στε καλά</string>
+    <string name="eleven_gr_word_18">ο φούρνος</string>
+    <string name="eleven_gr_word_19">η πιτσαρία</string>
+    <string name="eleven_gr_word_20">το βενζινάδικο</string>
+    <string name="eleven_gr_word_21">η ταβέρνα</string>
+    <string name="eleven_gr_word_22">το ταχυδρομείο</string>
+    <string name="eleven_gr_word_23">το σουβλατζίδικο</string>
+    <string name="eleven_gr_word_24">ο υδραυλικός</string>
+    <string name="eleven_gr_word_25">το πάρκιγκ</string>
+    <string name="eleven_gr_word_26">ο κινηματογράφος</string>
+    <string name="eleven_gr_word_27">Δεν υπάρχει κανένας υδραυλικός</string>
+    <string name="eleven_gr_word_28">Υπάρχει καμιά ταβέρνα εδώ κοντά;</string>
+    <string name="eleven_gr_word_29">δίπλα σε</string>
+    <string name="eleven_gr_word_30">κοντά σε</string>
+    <string name="eleven_gr_word_31">πίσω από</string>
+    <string name="eleven_gr_word_32">μακριά από</string>
+    <string name="eleven_gr_word_33">μπροστά από</string>
+    <string name="eleven_gr_word_34">η στάση</string>
+    <string name="eleven_gr_word_35">ο σταθμός</string>
+    <string name="eleven_gr_word_36">η κλινική</string>
+    <string name="eleven_gr_word_37">το βιβλιοπολείο</string>
+    <string name="eleven_gr_word_38">σχεδόν</string>
+    <string name="eleven_gr_word_39">η γωνία</string>
+    <string name="eleven_gr_word_40">πρώτος</string>
+    <string name="eleven_gr_word_41">δεύτερος</string>
+    <string name="eleven_gr_word_42">τρίτος</string>
+    <string name="eleven_gr_word_43">τέταρτος</string>
+    <string name="eleven_gr_word_44">γωνία Ελευθερίας και Νάξου</string>
+    <string name="eleven_gr_word_45">ο κατάλογος</string>
+    <string name="eleven_gr_word_46">βεβαίως</string>
+    <string name="eleven_gr_word_47">σερβίρω</string>
+    <string name="eleven_gr_word_48">το πρωινό</string>
+    <string name="eleven_gr_word_49">το ψωμί</string>
+    <string name="eleven_gr_word_50">το βούτυρο</string>
+    <string name="eleven_gr_word_51">η μαρμελάδα</string>
+    <string name="eleven_gr_word_52">το μέλι</string>
+    <string name="eleven_gr_word_53">ο καφές</string>
+    <string name="eleven_gr_word_54">το τσάι</string>
+    <string name="eleven_gr_word_55">το πορτοκάλι</string>
+    <string name="eleven_gr_word_56">ο χυμός πορτοκάλι</string>
+    <string name="eleven_gr_word_57">θα ήθελα</string>
+    <string name="eleven_gr_word_58">θα ήθελα έναν χυμό πορτοκάλι</string>
+    <string name="eleven_gr_word_59">θα ήθελα έναν ελληνικό καφέ</string>
+    <string name="eleven_gr_word_60">ο ελληνικός καφές</string>
+    <string name="eleven_gr_word_61">μέτριος</string>
+    <string name="eleven_gr_word_62">το κρουασάν</string>
+    <string name="eleven_gr_word_63">η σοκολάτα</string>
+    <string name="eleven_gr_word_64">ο φραπέ</string>
+    <string name="eleven_gr_word_65">το γάλα</string>
+    <string name="eleven_gr_word_66">χωρίς</string>
+    <string name="eleven_gr_word_67">η ζάχαρη</string>
+    <string name="eleven_gr_word_68">το τοστ</string>
+    <string name="eleven_gr_word_69">το τυρί</string>
+    <string name="eleven_gr_word_70">το νερό</string>
+    <string name="eleven_gr_word_71">ο λογαριασμός</string>
+    <string name="eleven_gr_word_72">τα ρέστα</string>
+    <string name="eleven_gr_word_73">είμαστε εντάξει</string>
+    <string name="eleven_gr_word_74">το μεσημεριανό</string>
+    <string name="eleven_gr_word_75">το βραδινό</string>
+    <string name="eleven_gr_word_76">το ζαμπόν</string>
+    <string name="eleven_gr_word_77">η πάστα</string>
+    <string name="eleven_gr_word_78">η κόκα κόλα</string>
+    <string name="eleven_gr_word_79">το εσπρέσο</string>
+    <string name="eleven_gr_word_80">η μπανάνα</string>
+    <string name="eleven_gr_word_81">ο γαλλικός καφές</string>
+    <string name="eleven_gr_word_82">ο σάντουϊτς</string>
+    <string name="eleven_gr_word_83">η μπαγκέτα</string>
+    <string name="eleven_gr_word_84">καπνιστός</string>
+    <string name="eleven_gr_word_85">η γαλοπούλα</string>
+    <string name="eleven_gr_word_86">η ντομάτα</string>
+    <string name="eleven_gr_word_87">το μαρούλι</string>
+    <string name="eleven_gr_word_88">το προφιτερόλ</string>
+    <string name="eleven_gr_word_89">το κρεμ</string>
+    <string name="eleven_gr_word_90">η τάρτα</string>
+    <string name="eleven_gr_word_91">η μηλόπιτα</string>
+    <string name="eleven_gr_word_92">η καρυδόπιτα</string>
+    <string name="eleven_gr_word_93">ο μπακλαβάς</string>
+    <string name="eleven_gr_word_94">η βανίλια</string>
+    <string name="eleven_gr_word_95">η φράουλα</string>
+    <string name="eleven_gr_word_96">το λεμόνι</string>
+    <string name="eleven_gr_word_97">το γκρέιπ φρουτ</string>
+    <string name="eleven_gr_word_98">η πορτοκαλάδα</string>
+    <string name="eleven_gr_word_99">το κρασί λευκό</string>
+    <string name="eleven_gr_word_100">το κρασί κόκκινο</string>
+    <string name="eleven_gr_word_101">η τιμή</string>
+    <string name="eleven_gr_word_102">το κουταλάκι</string>
+    <string name="eleven_gr_word_103">το φλιτζανάκι</string>
+    <string name="eleven_gr_word_104">το πιατάκι</string>
+    <string name="eleven_gr_word_105">σκέτος</string>
+    <string name="eleven_gr_word_106">με ολιγή (ζαχαρή)</string>
+    <string name="eleven_gr_word_107">γλυκός</string>
+    <string name="eleven_gr_word_108">ανακατεύω</string>
+    <string name="eleven_gr_word_109">βάζω</string>
+    <string name="eleven_gr_word_110">το ζαχαροπλαστείο</string>
+    <string name="eleven_gr_word_111">το ανθοπωλείο</string>
+    <string name="eleven_gr_word_112">το ξενοδοχείο</string>
+    <string name="eleven_gr_word_113">το πάρκο</string>
+
+    <!-- Dutch words for lesson 12 -->
+
+    <string name="twelve_nl_word_1">stomerij</string>
+    <string name="twelve_nl_word_2">verwijderd zijn van</string>
+    <string name="twelve_nl_word_3">benzine</string>
+    <string name="twelve_nl_word_4">aspirine</string>
+    <string name="twelve_nl_word_5">wiskundige</string>
+    <string name="twelve_nl_word_6">studeren</string>
+    <string name="twelve_nl_word_7">mooi, prachtig</string>
+    <string name="twelve_nl_word_8">meer</string>
+    <string name="twelve_nl_word_9">dorp</string>
+    <string name="twelve_nl_word_10">in Athene, waar</string>
+    <string name="twelve_nl_word_11">geneeskunde</string>
+    <string name="twelve_nl_word_12">winkel</string>
+    <string name="twelve_nl_word_13">leren</string>
+    <string name="twelve_nl_word_14">gemakkelijk</string>
+
+    <!-- Greek words for lesson 12 -->
+
+    <string name="twelve_gr_word_1">το καθαριστήριο</string>
+    <string name="twelve_gr_word_2">απέχω</string>
+    <string name="twelve_gr_word_3">η βενζίνη</string>
+    <string name="twelve_gr_word_4">η ασπιρίνη</string>
+    <string name="twelve_gr_word_5">ο μαθηματικός</string>
+    <string name="twelve_gr_word_6">σπουδάζω</string>
+    <string name="twelve_gr_word_7">όμορφος</string>
+    <string name="twelve_gr_word_8">η λίμνη</string>
+    <string name="twelve_gr_word_9">το χωριό</string>
+    <string name="twelve_gr_word_10">στην Αθήνα, όπου</string>
+    <string name="twelve_gr_word_11">η γιατρική</string>
+    <string name="twelve_gr_word_12">το κατάστημα</string>
+    <string name="twelve_gr_word_13">μαθαίνω</string>
+    <string name="twelve_gr_word_14">εύκολος</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
