@@ -27,7 +27,13 @@
         <activity android:name=".LessonNineActivity" />
         <activity android:name=".LessonTenActivity" />
         <activity android:name=".LessonElevenActivity" />
-        <activity android:name=".LessonTwelveActivity"></activity>
+        <activity android:name=".LessonTwelveActivity" />
+        <activity android:name=".LessonThirteenActivity" />
+        <activity android:name=".LessonFourteenActivity" />
+        <activity android:name=".LessonFifteenActivity" />
+        <activity android:name=".LessonSixteenActivity" />
+        <activity android:name=".LessonSeventeenActivity" />
+        <activity android:name=".LessonEighteenActivity"></activity>
     </application>
 
 </manifest>

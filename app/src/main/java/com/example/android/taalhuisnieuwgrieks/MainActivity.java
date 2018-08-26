@@ -205,5 +205,101 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(lessonIntent);
             }
         });
+
+        // Find the View that shows lesson 13
+        TextView lessonThirteen = findViewById(R.id.lesson_thirteen);
+
+        // Set a click listener on that View
+        lessonThirteen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonThirteenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
+
+        // Find the View that shows lesson 14
+        TextView lessonFourteen = findViewById(R.id.lesson_fourteen);
+
+        // Set a click listener on that View
+        lessonFourteen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonFourteenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
+
+        // Find the View that shows lesson 15
+        TextView lessonFifteen = findViewById(R.id.lesson_fifteen);
+
+        // Set a click listener on that View
+        lessonFifteen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonFifteenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
+
+        // Find the View that shows lesson 16
+        TextView lessonSixteen = findViewById(R.id.lesson_sixteen);
+
+        // Set a click listener on that View
+        lessonSixteen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonSixteenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
+
+        // Find the View that shows lesson 17
+        TextView lessonSeventeen = findViewById(R.id.lesson_seventeen);
+
+        // Set a click listener on that View
+        lessonSeventeen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonSeventeenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
+
+        // Find the View that shows lesson 18
+        TextView lessonEighteen = findViewById(R.id.lesson_eighteen);
+
+        // Set a click listener on that View
+        lessonEighteen.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when lesson 3 is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent lessonIntent = new Intent(MainActivity.this, LessonEighteenActivity.class);
+
+                // Start the new activity
+                startActivity(lessonIntent);
+            }
+        });
     }
 }
