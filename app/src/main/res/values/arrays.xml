@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <resources>
+        <!-- These are the options displayed in the Action Bar Spinner -->
+        <string-array name="array_menu_options">
+            <item>@string/overhoor_gr_nl</item>
+            <item>@string/overhoor_nl_gr</item>
+
+        </string-array>
+    </resources>
+

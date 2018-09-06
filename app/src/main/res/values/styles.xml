@@ -6,6 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="actionBarPopupTheme">@style/ActionbarPopupTheme</item>
+
+    </style>
+
+    <style name="ActionbarPopupTheme">
+    <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+
     </style>
 
     <!-- Style for a category of vocabulary words -->

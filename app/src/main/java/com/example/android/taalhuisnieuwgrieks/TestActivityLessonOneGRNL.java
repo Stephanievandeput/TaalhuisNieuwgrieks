@@ -1,25 +1,26 @@
 package com.example.android.taalhuisnieuwgrieks;
 
-import android.content.Intent;
-import android.support.v4.app.NavUtils;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Spinner;
+import android.widget.Button;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class LessonOneActivity extends AppCompatActivity {
+public class TestActivityLessonOneGRNL extends AppCompatActivity {
+
+
+    int i = 0;
+    int mCorrectScore = 0;
+    int mIncorrectScore = 0;
+    boolean hasAnswered = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.test_activity);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -75,64 +76,84 @@ public class LessonOneActivity extends AppCompatActivity {
         words.add(new Word(R.string.one_gr_word_49, R.string.one_nl_word_49));
         words.add(new Word(R.string.one_gr_word_50, R.string.one_nl_word_50));
 
+        //TextView to display the current word.
+        final TextView currentWordTextView = findViewById(R.id.current_word_text_view);
+        currentWordTextView.setVisibility(View.INVISIBLE);
+        final TextView currentAnswerTextView = findViewById(R.id.current_answer_text_view);
+        currentAnswerTextView.setVisibility(View.INVISIBLE);
+        final TextView endOfTheLessonTextView = findViewById(R.id.einde_overhoring_text_view);
+        endOfTheLessonTextView.setVisibility(View.INVISIBLE);
 
-        //Create a WordAdapter, whose data structure is a list of Word objects
-        //The adapter creates a list item for each item in the list
-        WordAdapter adapter = new WordAdapter(this, words, R.color.colorYellow);
+        //Button for showing the answer, when the user click on this button, the corrent answer is shown.
+        final Button showAnswerButton = findViewById(R.id.show_answer_button);
+        showAnswerButton.setVisibility(View.INVISIBLE);
+        showAnswerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                currentAnswerTextView.setVisibility(View.VISIBLE);
+                hasAnswered = true;
+            }
+        });
 
-        //Find the ListView in the view hierarchy of the Activity
-        ListView listView = (ListView) findViewById(R.id.list);
+        //TextView that shows how many answers are correct.
+        final TextView correctScoreTextView = findViewById(R.id.correct_score_text_view);
+        //Button to increment the amount of correct answers.
+        final Button incrementCorrectScore = findViewById(R.id.increment_correct_text_view);
+        incrementCorrectScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mCorrectScore++;
+                correctScoreTextView.setText(String.valueOf(mCorrectScore));
+            }
+        });
 
-        //Set the adapter on the ListView
-        listView.setAdapter(adapter);
+        //TextView that shows how many answers were not correct.
+        final TextView incorrectScoreTextView = findViewById(R.id.incorrect_score_text_view);
+        //Button to increment the amount of incorrect answers.
+        final Button incrementIncorrectScore = findViewById(R.id.increment_incorrect_text_view);
+        incrementIncorrectScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mIncorrectScore++;
+                incorrectScoreTextView.setText(String.valueOf(mIncorrectScore));
+            }
+        });
 
+        final Context context = this;
 
-    }
+        //Button that goes to the next question.
+        final Button nextButton = findViewById(R.id.next_button);
+        nextButton.setText(R.string.start_button);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                for (Word word : words) {
+                    if (i < words.size()) {
+                        word = words.get(i);
+                        currentWordTextView.setVisibility(View.VISIBLE);
+                        showAnswerButton.setVisibility(View.VISIBLE);
+                        currentWordTextView.setText(word.getGreekTranslationId());
+                        currentAnswerTextView.setVisibility(View.INVISIBLE);
+                        currentAnswerTextView.setText(word.getDefaultTranslationId());
+                        nextButton.setText(R.string.next_button);
+                        if (hasAnswered == true) {
+                            hasAnswered = false;
+                            i++;
+                        }
+                    } else {
+                        endOfTheLessonTextView.setVisibility(View.VISIBLE);
+                        nextButton.setVisibility(View.INVISIBLE);
+                        currentWordTextView.setVisibility(View.INVISIBLE);
+                        currentAnswerTextView.setVisibility(View.INVISIBLE);
+                        showAnswerButton.setVisibility(View.INVISIBLE);
+                        incrementCorrectScore.setVisibility(View.INVISIBLE);
+                        incrementIncorrectScore.setVisibility(View.INVISIBLE);
+                        //Toast.makeText(context, R.string.einde_overhoring, Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        //Inflate the menu options and add menu items to the app bar
-        getMenuInflater().inflate(R.menu.menu_lessons, menu);
-
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        //User clicked on a menu option (switch statement used for if any other options get added later)
-        switch (item.getItemId()) {
-            case R.id.action_overhoor_GR_NL:
-                intentGRNL();
-                return true;
-            case R.id.action_overhoor_NL_GR:
-                intentNLGR();
-                return true;
-            // Respond to a click on the "Up" arrow button in the app bar
-            case android.R.id.home:
-                // Navigate back to parent activity (CatalogActivity)
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void intentGRNL() {
-        // Create a new intent to open the {@link NumbersActivity}
-        Intent overhoorIntent = new Intent(LessonOneActivity.this, TestActivityLessonOneGRNL.class);
-
-        // Start the new activity
-        startActivity(overhoorIntent);
-    }
-
-    private void intentNLGR() {
-        // Create a new intent to open the {@link NumbersActivity}
-        Intent overhoorIntent = new Intent(LessonOneActivity.this, TestActivityLessonOneNLGR.class);
-
-        // Start the new activity
-        startActivity(overhoorIntent);
     }
 
 }
-
-

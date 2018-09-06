@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!-- The Main Activity of the app -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,24 +17,204 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LessonOneActivity" />
-        <activity android:name=".LessonTwoActivity" />
-        <activity android:name=".LessonThreeActivity" />
-        <activity android:name=".LessonFourActivity" />
-        <activity android:name=".LessonFiveActivity" />
-        <activity android:name=".LessonSixActivity" />
-        <activity android:name=".LessonSevenActivity" />
-        <activity android:name=".LessonEightActivity" />
-        <activity android:name=".LessonNineActivity" />
-        <activity android:name=".LessonTenActivity" />
-        <activity android:name=".LessonElevenActivity" />
-        <activity android:name=".LessonTwelveActivity" />
-        <activity android:name=".LessonThirteenActivity" />
-        <activity android:name=".LessonFourteenActivity" />
-        <activity android:name=".LessonFifteenActivity" />
-        <activity android:name=".LessonSixteenActivity" />
-        <activity android:name=".LessonSeventeenActivity" />
-        <activity android:name=".LessonEighteenActivity"></activity>
+        <!-- Children of the Main Activity -->
+        <activity
+            android:name=".LessonOneActivity"
+            android:label="@string/lesson_one"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonTwoActivity"
+            android:label="@string/lesson_two"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonThreeActivity"
+            android:label="@string/lesson_three"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonFourActivity"
+            android:label="@string/lesson_four"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonFiveActivity"
+            android:label="@string/lesson_five"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonSixActivity"
+            android:label="@string/lesson_six"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonSevenActivity"
+            android:label="@string/lesson_seven"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonEightActivity"
+            android:label="@string/lesson_eight"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonNineActivity"
+            android:label="@string/lesson_nine"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonTenActivity"
+            android:label="@string/lesson_ten"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonElevenActivity"
+            android:label="@string/lesson_eleven"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonTwelveActivity"
+            android:label="@string/lesson_twelve"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonThirteenActivity"
+            android:label="@string/lesson_thirteen"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonFourteenActivity"
+            android:label="@string/lesson_fourteen"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonFifteenActivity"
+            android:label="@string/lesson_fifteen"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonSixteenActivity"
+            android:label="@string/lesson_sixteen"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonSeventeenActivity"
+            android:label="@string/lesson_seventeen"
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.MainActivity"/>
+        <activity
+            android:name=".LessonEighteenActivity"
+            android:label="@string/lesson_eighteen" />
+        <!-- Children of the Lesson Activities -->
+        <activity android:name=".TestActivityLessonOneGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonOneActivity"/>
+        <activity android:name=".TestActivityLessonOneNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonOneActivity"/>
+
+        <activity android:name=".TestActivityLessonTwoGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwoActivity"/>
+        <activity android:name=".TestActivityLessonTwoNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwoActivity"/>
+
+        <activity android:name=".TestActivityLessonThreeGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThreeActivity"/>
+        <activity android:name=".TestActivityLessonThreeNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThreeActivity"/>
+
+        <activity android:name=".TestActivityLessonFourGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourActivity"/>
+        <activity android:name=".TestActivityLessonFourNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourActivity"/>
+
+        <activity android:name=".TestActivityLessonFiveGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFiveActivity"/>
+        <activity android:name=".TestActivityLessonFiveNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFiveActivity"/>
+
+        <activity android:name=".TestActivityLessonSixGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixActivity"/>
+        <activity android:name=".TestActivityLessonSixNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixActivity"/>
+
+        <activity android:name=".TestActivityLessonSevenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSevenActivity"/>
+        <activity android:name=".TestActivityLessonSevenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSevenActivity"/>
+
+        <activity android:name=".TestActivityLessonEightGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEightActivity"/>
+        <activity android:name=".TestActivityLessonEightNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEightActivity"/>
+
+        <activity android:name=".TestActivityLessonNineGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonNineActivity"/>
+        <activity android:name=".TestActivityLessonNineNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonNineActivity"/>
+
+        <activity android:name=".TestActivityLessonTenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTenActivity"/>
+        <activity android:name=".TestActivityLessonTenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTenActivity"/>
+
+        <activity android:name=".TestActivityLessonElevenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonElevenActivity"/>
+        <activity android:name=".TestActivityLessonElevenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonElevenActivity"/>
+
+        <activity android:name=".TestActivityLessonTwelveGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwelveActivity"/>
+        <activity android:name=".TestActivityLessonTwelveNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwelveActivity"/>
+
+        <activity android:name=".TestActivityLessonThirteenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThirteenActivity"/>
+        <activity android:name=".TestActivityLessonThirteenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThirteenActivity"/>
+
+        <activity android:name=".TestActivityLessonFourteenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourteenActivity"/>
+        <activity android:name=".TestActivityLessonFourteenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourteenActivity"/>
+
+        <activity android:name=".TestActivityLessonFifteenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFifteenActivity"/>
+        <activity android:name=".TestActivityLessonFifteenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFifteenActivity"/>
+
+        <activity android:name=".TestActivityLessonSixteenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixteenActivity"/>
+        <activity android:name=".TestActivityLessonSixteenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixteenActivity"/>
+
+        <activity android:name=".TestActivityLessonSeventeenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSeventeenActivity"/>
+        <activity android:name=".TestActivityLessonSeventeenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSeventeenActivity"/>
+
+        <activity android:name=".TestActivityLessonEighteenGRNL"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEighteenActivity"/>
+        <activity android:name=".TestActivityLessonEighteenNLGR"
+            android:label=""
+            android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEighteenActivity"/>
     </application>
 
 </manifest>

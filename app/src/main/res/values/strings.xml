@@ -1,6 +1,25 @@
 <resources>
     <string name="app_name">Taalhuis Nieuwgrieks</string>
 
+    <!-- String for a correct answer -->
+    <string name="correct_answer">Goed!</string>
+
+    <!-- String for a false answer -->
+    <string name="false_answer">Fout!</string>
+
+    <!-- String for menu option GR-NL -->
+    <string name="overhoor_gr_nl">Overhoor GR - NL</string>
+
+    <!-- String for menu option NL-GR -->
+    <string name="overhoor_nl_gr">Overhoor NL - GR</string>
+
+    <!-- String for start/next button -->
+    <string name="start_button">Start Overhoren</string>
+    <string name="next_button">Volgende Woord -></string>
+
+    <!-- String for the end repitition toast -->
+    <string name="einde_overhoring">Je bent klaar met deze les!</string>
+
     <!-- Names for the lesson TextViews in the MainActivity -->
     <string name="lesson_one">Les 1</string>
     <string name="lesson_two">Les 2</string>
@@ -1586,76 +1605,76 @@
 
     <!-- Dutch words for lesson 14 -->
 
-   <string name="fourteen_nl_word_1">omdat, want</string>
-   <string name="fourteen_nl_word_2">waarom?</string>
-   <string name="fourteen_nl_word_3">Italiaans</string>
-   <string name="fourteen_nl_word_4">die, dat</string>
-   <string name="fourteen_nl_word_5">schoenen</string>
-   <string name="fourteen_nl_word_6">linker-</string>
-   <string name="fourteen_nl_word_7">etalage</string>
-   <string name="fourteen_nl_word_8">tas</string>
-   <string name="fourteen_nl_word_9">maat, nummer</string>
-   <string name="fourteen_nl_word_10">dragen</string>
-   <string name="fourteen_nl_word_11">welke maat heeft u?</string>
-   <string name="fourteen_nl_word_12">bruin</string>
-   <string name="fourteen_nl_word_13">zwart</string>
-   <string name="fourteen_nl_word_14">blauw</string>
-   <string name="fourteen_nl_word_15">bordeaux</string>
-   <string name="fourteen_nl_word_16">hoeveel kosten de schoenen?</string>
-   <string name="fourteen_nl_word_17">betalen</string>
-   <string name="fourteen_nl_word_18">kassa</string>
-   <string name="fourteen_nl_word_19">broek</string>
-   <string name="fourteen_nl_word_20">Grieks</string>
-   <string name="fourteen_nl_word_21">riem</string>
-   <string name="fourteen_nl_word_22">Amerikaans</string>
-   <string name="fourteen_nl_word_23">Frans</string>
-   <string name="fourteen_nl_word_24">Spaans</string>
-   <string name="fourteen_nl_word_25">Zwitsers</string>
-   <string name="fourteen_nl_word_26">Russisch</string>
-   <string name="fourteen_nl_word_27">Bulgaars</string>
-   <string name="fourteen_nl_word_28">Zweeds</string>
-   <string name="fourteen_nl_word_29">Nederlands</string>
-   <string name="fourteen_nl_word_30">Japans</string>
-   <string name="fourteen_nl_word_31">Engels</string>
-   <string name="fourteen_nl_word_32">Oostenrijks</string>
-   <string name="fourteen_nl_word_33">Indisch</string>
-   <string name="fourteen_nl_word_34">Egyptisch</string>
-   <string name="fourteen_nl_word_35">kleren</string>
-   <string name="fourteen_nl_word_36">sokken</string>
-   <string name="fourteen_nl_word_37">T-shirt</string>
-   <string name="fourteen_nl_word_38">sandalen</string>
-   <string name="fourteen_nl_word_39">colbert</string>
-   <string name="fourteen_nl_word_40">panty</string>
-   <string name="fourteen_nl_word_41">stropdas</string>
-   <string name="fourteen_nl_word_42">trui</string>
-   <string name="fourteen_nl_word_43">hemd</string>
-   <string name="fourteen_nl_word_44">overhemd</string>
-   <string name="fourteen_nl_word_45">jurk</string>
-   <string name="fourteen_nl_word_46">pak</string>
-   <string name="fourteen_nl_word_47">rok</string>
-   <string name="fourteen_nl_word_48">trui, shirt</string>
-   <string name="fourteen_nl_word_49">hoed</string>
-   <string name="fourteen_nl_word_50">kleur</string>
-   <string name="fourteen_nl_word_51">rood</string>
-   <string name="fourteen_nl_word_52">geel</string>
-   <string name="fourteen_nl_word_53">groen</string>
-   <string name="fourteen_nl_word_54">stoplicht</string>
-   <string name="fourteen_nl_word_55">wit</string>
-   <string name="fourteen_nl_word_56">oranje</string>
-   <string name="fourteen_nl_word_57">grijs</string>
-   <string name="fourteen_nl_word_58">roze</string>
-   <string name="fourteen_nl_word_59">beige</string>
-   <string name="fourteen_nl_word_60">paars</string>
-   <string name="fourteen_nl_word_61">crème</string>
-   <string name="fourteen_nl_word_62">die, dat</string>
-   <string name="fourteen_nl_word_63">gebruiken</string>
-   <string name="fourteen_nl_word_64">mul</string>
-   <string name="fourteen_nl_word_65">sardine</string>
-   <string name="fourteen_nl_word_66">prefereren</string>
-   <string name="fourteen_nl_word_67">klassieke muziek</string>
-   <string name="fourteen_nl_word_68">rock</string>
+    <string name="fourteen_nl_word_1">omdat, want</string>
+    <string name="fourteen_nl_word_2">waarom?</string>
+    <string name="fourteen_nl_word_3">Italiaans</string>
+    <string name="fourteen_nl_word_4">die, dat</string>
+    <string name="fourteen_nl_word_5">schoenen</string>
+    <string name="fourteen_nl_word_6">linker-</string>
+    <string name="fourteen_nl_word_7">etalage</string>
+    <string name="fourteen_nl_word_8">tas</string>
+    <string name="fourteen_nl_word_9">maat, nummer</string>
+    <string name="fourteen_nl_word_10">dragen</string>
+    <string name="fourteen_nl_word_11">welke maat heeft u?</string>
+    <string name="fourteen_nl_word_12">bruin</string>
+    <string name="fourteen_nl_word_13">zwart</string>
+    <string name="fourteen_nl_word_14">blauw</string>
+    <string name="fourteen_nl_word_15">bordeaux</string>
+    <string name="fourteen_nl_word_16">hoeveel kosten de schoenen?</string>
+    <string name="fourteen_nl_word_17">betalen</string>
+    <string name="fourteen_nl_word_18">kassa</string>
+    <string name="fourteen_nl_word_19">broek</string>
+    <string name="fourteen_nl_word_20">Grieks</string>
+    <string name="fourteen_nl_word_21">riem</string>
+    <string name="fourteen_nl_word_22">Amerikaans</string>
+    <string name="fourteen_nl_word_23">Frans</string>
+    <string name="fourteen_nl_word_24">Spaans</string>
+    <string name="fourteen_nl_word_25">Zwitsers</string>
+    <string name="fourteen_nl_word_26">Russisch</string>
+    <string name="fourteen_nl_word_27">Bulgaars</string>
+    <string name="fourteen_nl_word_28">Zweeds</string>
+    <string name="fourteen_nl_word_29">Nederlands</string>
+    <string name="fourteen_nl_word_30">Japans</string>
+    <string name="fourteen_nl_word_31">Engels</string>
+    <string name="fourteen_nl_word_32">Oostenrijks</string>
+    <string name="fourteen_nl_word_33">Indisch</string>
+    <string name="fourteen_nl_word_34">Egyptisch</string>
+    <string name="fourteen_nl_word_35">kleren</string>
+    <string name="fourteen_nl_word_36">sokken</string>
+    <string name="fourteen_nl_word_37">T-shirt</string>
+    <string name="fourteen_nl_word_38">sandalen</string>
+    <string name="fourteen_nl_word_39">colbert</string>
+    <string name="fourteen_nl_word_40">panty</string>
+    <string name="fourteen_nl_word_41">stropdas</string>
+    <string name="fourteen_nl_word_42">trui</string>
+    <string name="fourteen_nl_word_43">hemd</string>
+    <string name="fourteen_nl_word_44">overhemd</string>
+    <string name="fourteen_nl_word_45">jurk</string>
+    <string name="fourteen_nl_word_46">pak</string>
+    <string name="fourteen_nl_word_47">rok</string>
+    <string name="fourteen_nl_word_48">trui, shirt</string>
+    <string name="fourteen_nl_word_49">hoed</string>
+    <string name="fourteen_nl_word_50">kleur</string>
+    <string name="fourteen_nl_word_51">rood</string>
+    <string name="fourteen_nl_word_52">geel</string>
+    <string name="fourteen_nl_word_53">groen</string>
+    <string name="fourteen_nl_word_54">stoplicht</string>
+    <string name="fourteen_nl_word_55">wit</string>
+    <string name="fourteen_nl_word_56">oranje</string>
+    <string name="fourteen_nl_word_57">grijs</string>
+    <string name="fourteen_nl_word_58">roze</string>
+    <string name="fourteen_nl_word_59">beige</string>
+    <string name="fourteen_nl_word_60">paars</string>
+    <string name="fourteen_nl_word_61">crème</string>
+    <string name="fourteen_nl_word_62">die, dat</string>
+    <string name="fourteen_nl_word_63">gebruiken</string>
+    <string name="fourteen_nl_word_64">mul</string>
+    <string name="fourteen_nl_word_65">sardine</string>
+    <string name="fourteen_nl_word_66">prefereren</string>
+    <string name="fourteen_nl_word_67">klassieke muziek</string>
+    <string name="fourteen_nl_word_68">rock</string>
 
-       <!-- Greek words for lesson 14 -->
+    <!-- Greek words for lesson 14 -->
 
     <string name="fourteen_gr_word_1">γιατί</string>
     <string name="fourteen_gr_word_2">γιατί;</string>
@@ -1727,7 +1746,7 @@
     <string name="fourteen_gr_word_68">η ροκ</string>
 
 
-   <!-- Dutch words for lesson 15 -->
+    <!-- Dutch words for lesson 15 -->
 
     <string name="fifteen_nl_word_1">deze week</string>
     <string name="fifteen_nl_word_2">deze maand</string>
@@ -1763,7 +1782,7 @@
     <string name="fifteen_nl_word_32">volleybal</string>
     <string name="fifteen_nl_word_33">reizen</string>
 
-        <!-- Greek words for lesson 15 -->
+    <!-- Greek words for lesson 15 -->
 
     <string name="fifteen_gr_word_1">αυτή την εβδομάδα</string>
     <string name="fifteen_gr_word_2">αυτό το μήνα</string>
@@ -1799,170 +1818,379 @@
     <string name="fifteen_gr_word_32">το βόλεϊ</string>
     <string name="fifteen_gr_word_33">ταξιδεύω</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <!-- Dutch words for lesson 16 -->
+    <string name="sixteen_nl_word_1">nemen</string>
+    <string name="sixteen_nl_word_2">begin</string>
+    <string name="sixteen_nl_word_3">om te beginnen</string>
+    <string name="sixteen_nl_word_4">auberginesalade</string>
+    <string name="sixteen_nl_word_5">inktvis</string>
+    <string name="sixteen_nl_word_6">verder, na</string>
+    <string name="sixteen_nl_word_7">voor daarna</string>
+    <string name="sixteen_nl_word_8">geroosterd</string>
+    <string name="sixteen_nl_word_9">aardappelen</string>
+    <string name="sixteen_nl_word_10">inktvisringen</string>
+    <string name="sixteen_nl_word_11">gefrituurd</string>
+    <string name="sixteen_nl_word_12">boerensalade</string>
+    <string name="sixteen_nl_word_13">uiteindelijk</string>
+    <string name="sixteen_nl_word_14">oké</string>
+    <string name="sixteen_nl_word_15">onmiddellijk</string>
+    <string name="sixteen_nl_word_16">zout</string>
+    <string name="sixteen_nl_word_17">peper</string>
+    <string name="sixteen_nl_word_18">olie</string>
+    <string name="sixteen_nl_word_19">azijn</string>
+    <string name="sixteen_nl_word_20">bord</string>
+    <string name="sixteen_nl_word_21">servet</string>
+    <string name="sixteen_nl_word_22">mes</string>
+    <string name="sixteen_nl_word_23">vork</string>
+    <string name="sixteen_nl_word_24">lepel</string>
+    <string name="sixteen_nl_word_25">wassen</string>
+    <string name="sixteen_nl_word_26">(ver)sturen</string>
+    <string name="sixteen_nl_word_27">gaan</string>
+    <string name="sixteen_nl_word_28">vinden</string>
+    <string name="sixteen_nl_word_29">afwassen</string>
+    <string name="sixteen_nl_word_30">vakantie</string>
+    <string name="sixteen_nl_word_31">op vakantie gaan</string>
+    <string name="sixteen_nl_word_32">universiteit</string>
+    <string name="sixteen_nl_word_33">Jannis opbellen</string>
+    <string name="sixteen_nl_word_34">voorgerecht</string>
+    <string name="sixteen_nl_word_35">tzatziki</string>
+    <string name="sixteen_nl_word_36">vismousse</string>
+    <string name="sixteen_nl_word_37">gehaktballetjes</string>
+    <string name="sixteen_nl_word_38">uit de oven</string>
+    <string name="sixteen_nl_word_39">grote witte bonen</string>
+    <string name="sixteen_nl_word_40">bonen</string>
+    <string name="sixteen_nl_word_41">gefrituurde kaas</string>
+    <string name="sixteen_nl_word_42">in olie gebakken of gekookte groenten</string>
+    <string name="sixteen_nl_word_43">gevulde tomaten</string>
+    <string name="sixteen_nl_word_44">verse bonen</string>
+    <string name="sixteen_nl_word_45">erwten</string>
+    <string name="sixteen_nl_word_46">pasta</string>
+    <string name="sixteen_nl_word_47">spaghetti</string>
+    <string name="sixteen_nl_word_48">saus</string>
+    <string name="sixteen_nl_word_49">moussaka</string>
+    <string name="sixteen_nl_word_50">gekookt in rode saus</string>
+    <string name="sixteen_nl_word_51">van de grill</string>
+    <string name="sixteen_nl_word_52">kip</string>
+    <string name="sixteen_nl_word_53">van het seizoen</string>
+    <string name="sixteen_nl_word_54">souvlaki</string>
+    <string name="sixteen_nl_word_55">steak</string>
+    <string name="sixteen_nl_word_56">hamburger</string>
+    <string name="sixteen_nl_word_57">vis</string>
+    <string name="sixteen_nl_word_58">zeevrucht</string>
+    <string name="sixteen_nl_word_59">garnaal</string>
+    <string name="sixteen_nl_word_60">knoflooksaus</string>
+    <string name="sixteen_nl_word_61">ansjovis</string>
+    <string name="sixteen_nl_word_62">zwaardvis</string>
+    <string name="sixteen_nl_word_63">brasem</string>
+    <string name="sixteen_nl_word_64">mul</string>
+    <string name="sixteen_nl_word_65">salade</string>
+    <string name="sixteen_nl_word_66">sla</string>
+    <string name="sixteen_nl_word_67">fruit</string>
+    <string name="sixteen_nl_word_68">op onze gezondheid</string>
+    <string name="sixteen_nl_word_69">op je gezondheid</string>
+    <string name="sixteen_nl_word_70">eet smakelijk</string>
+    <string name="sixteen_nl_word_71">archeoloog</string>
+    <string name="sixteen_nl_word_72">symposium</string>
+    <string name="sixteen_nl_word_73">baai</string>
+    <string name="sixteen_nl_word_74">venetiaans</string>
+    <string name="sixteen_nl_word_75">fort</string>
+    <string name="sixteen_nl_word_76">moskee</string>
+    <string name="sixteen_nl_word_77">stoppen</string>
+    <string name="sixteen_nl_word_78">wandelen</string>
+    <string name="sixteen_nl_word_79">vragen</string>
+    <string name="sixteen_nl_word_80">antwoorden</string>
+    <string name="sixteen_nl_word_81">proberen</string>
+    <string name="sixteen_nl_word_82">honger hebben</string>
+    <string name="sixteen_nl_word_83">dorst hebben</string>
+    <string name="sixteen_nl_word_84">lachen</string>
+    <string name="sixteen_nl_word_85">vergeten</string>
+    <string name="sixteen_nl_word_86">behandelen, aanbieden</string>
+    <string name="sixteen_nl_word_87">pijn doen</string>
+    <string name="sixteen_nl_word_88">verzoeken, smeken</string>
+    <string name="sixteen_nl_word_89">kiosk</string>
+    <string name="sixteen_nl_word_90">bloem</string>
+    <string name="sixteen_nl_word_91">wedstrijd</string>
+
+
+    <!-- Greek words for lesson 16 -->
+
+    <string name="sixteen_gr_word_1">παίρνω</string>
+    <string name="sixteen_gr_word_2">η αρχή</string>
+    <string name="sixteen_gr_word_3">για την αρχή</string>
+    <string name="sixteen_gr_word_4">η μελιτζανοσαλάτα</string>
+    <string name="sixteen_gr_word_5">το χταπόδι</string>
+    <string name="sixteen_gr_word_6">μετά</string>
+    <string name="sixteen_gr_word_7">για μετά</string>
+    <string name="sixteen_gr_word_8">ψητός</string>
+    <string name="sixteen_gr_word_9">οι πατάτες</string>
+    <string name="sixteen_gr_word_10">τα καλαμαράκια</string>
+    <string name="sixteen_gr_word_11">τηγανιτός</string>
+    <string name="sixteen_gr_word_12">η χωριατική σαλάτα</string>
+    <string name="sixteen_gr_word_13">τελικά</string>
+    <string name="sixteen_gr_word_14">σύμφωνοι</string>
+    <string name="sixteen_gr_word_15">αμέσως</string>
+    <string name="sixteen_gr_word_16">το αλάτι</string>
+    <string name="sixteen_gr_word_17">το πιπέρι</string>
+    <string name="sixteen_gr_word_18">το λάδι</string>
+    <string name="sixteen_gr_word_19">το ξύδι</string>
+    <string name="sixteen_gr_word_20">το πιάτο</string>
+    <string name="sixteen_gr_word_21">η χαρτοπετσέτα</string>
+    <string name="sixteen_gr_word_22">το μαχαίρι</string>
+    <string name="sixteen_gr_word_23">το πιρούνι</string>
+    <string name="sixteen_gr_word_24">το κουτάλι</string>
+    <string name="sixteen_gr_word_25">πλένω</string>
+    <string name="sixteen_gr_word_26">στέλνω</string>
+    <string name="sixteen_gr_word_27">μπαίνω</string>
+    <string name="sixteen_gr_word_28">βρίσκω</string>
+    <string name="sixteen_gr_word_29">πλένω τα πιάτα</string>
+    <string name="sixteen_gr_word_30">οι διακοπές</string>
+    <string name="sixteen_gr_word_31">πηγαίνω διακοπές</string>
+    <string name="sixteen_gr_word_32">το πανεπιστήμιο</string>
+    <string name="sixteen_gr_word_33">παίρνω τηλέφωνο τον Γιάννη, τηλεφωνώ στον Γιάννη</string>
+    <string name="sixteen_gr_word_34">το ορεκτικό</string>
+    <string name="sixteen_gr_word_35">το τζατζίκι</string>
+    <string name="sixteen_gr_word_36">η ταραμοσαλάτα</string>
+    <string name="sixteen_gr_word_37">τα κεφτεδάκια</string>
+    <string name="sixteen_gr_word_38">φούρνου</string>
+    <string name="sixteen_gr_word_39">οι γιγάντες</string>
+    <string name="sixteen_gr_word_40">τα φάβα</string>
+    <string name="sixteen_gr_word_41">το σαγανάκι</string>
+    <string name="sixteen_gr_word_42">το λαδερό</string>
+    <string name="sixteen_gr_word_43">τα γεμιστά</string>
+    <string name="sixteen_gr_word_44">τα φασολάκια</string>
+    <string name="sixteen_gr_word_45">ο αρακάς</string>
+    <string name="sixteen_gr_word_46">το ζυμαρικό</string>
+    <string name="sixteen_gr_word_47">τα μακαρόνια</string>
+    <string name="sixteen_gr_word_48">η σάλτσα</string>
+    <string name="sixteen_gr_word_49">ο μουσακάς</string>
+    <string name="sixteen_gr_word_50">κοκκινιστό</string>
+    <string name="sixteen_gr_word_51">το ψητό</string>
+    <string name="sixteen_gr_word_52">το κοτόπουλο</string>
+    <string name="sixteen_gr_word_53">της ώρας</string>
+    <string name="sixteen_gr_word_54">το σουβλάκι</string>
+    <string name="sixteen_gr_word_55">η μπριζόλα</string>
+    <string name="sixteen_gr_word_56">το μπιφτέκι</string>
+    <string name="sixteen_gr_word_57">το ψάρι</string>
+    <string name="sixteen_gr_word_58">το θαλασσινό</string>
+    <string name="sixteen_gr_word_59">η γαρίδα</string>
+    <string name="sixteen_gr_word_60">η σκορδαλιά</string>
+    <string name="sixteen_gr_word_61">ο γαύρος</string>
+    <string name="sixteen_gr_word_62">ο ξιφίας</string>
+    <string name="sixteen_gr_word_63">η τσιπούρα</string>
+    <string name="sixteen_gr_word_64">το μπαρμπούνι</string>
+    <string name="sixteen_gr_word_65">η σαλάτα</string>
+    <string name="sixteen_gr_word_66">το μαρούλι</string>
+    <string name="sixteen_gr_word_67">το φρούτο</string>
+    <string name="sixteen_gr_word_68">στην υγειά μας</string>
+    <string name="sixteen_gr_word_69">στην υγειά σου</string>
+    <string name="sixteen_gr_word_70">καλή όρεξη</string>
+    <string name="sixteen_gr_word_71">ο αρχαιολόγος</string>
+    <string name="sixteen_gr_word_72">το συμπόσιο</string>
+    <string name="sixteen_gr_word_73">ο κόλπος</string>
+    <string name="sixteen_gr_word_74">βενετσιάνικος</string>
+    <string name="sixteen_gr_word_75">το φρούριο</string>
+    <string name="sixteen_gr_word_76">το τζαμί</string>
+    <string name="sixteen_gr_word_77">σταματάω</string>
+    <string name="sixteen_gr_word_78">περπατάω</string>
+    <string name="sixteen_gr_word_79">ρωτάω</string>
+    <string name="sixteen_gr_word_80">απαντάω</string>
+    <string name="sixteen_gr_word_81">προσπαθώ</string>
+    <string name="sixteen_gr_word_82">πεινάω</string>
+    <string name="sixteen_gr_word_83">διψάω</string>
+    <string name="sixteen_gr_word_84">γελάω</string>
+    <string name="sixteen_gr_word_85">ξεχνάω</string>
+    <string name="sixteen_gr_word_86">κερνάω</string>
+    <string name="sixteen_gr_word_87">πονάω</string>
+    <string name="sixteen_gr_word_88">παρακαλώ</string>
+    <string name="sixteen_gr_word_89">το περίπτερο</string>
+    <string name="sixteen_gr_word_90">το λουλούδι</string>
+    <string name="sixteen_gr_word_91">το ματς</string>
+
+    <!-- Dutch words for lesson 17 -->
+
+    <string name="seventeen_nl_word_1">appartement</string>
+    <string name="seventeen_nl_word_2">zoeken</string>
+    <string name="seventeen_nl_word_3">gemeubileerd</string>
+    <string name="seventeen_nl_word_4">tweekamerwoning</string>
+    <string name="seventeen_nl_word_5">geschikt</string>
+    <string name="seventeen_nl_word_6">verdieping</string>
+    <string name="seventeen_nl_word_7">open haard</string>
+    <string name="seventeen_nl_word_8">woonkamer</string>
+    <string name="seventeen_nl_word_9">slaapkamer</string>
+    <string name="seventeen_nl_word_10">keuken</string>
+    <string name="seventeen_nl_word_11">badkamer</string>
+    <string name="seventeen_nl_word_12">balkon</string>
+    <string name="seventeen_nl_word_13">huur</string>
+    <string name="seventeen_nl_word_14">rustig</string>
+    <string name="seventeen_nl_word_15">eetkeuken</string>
+    <string name="seventeen_nl_word_16">redelijk</string>
+    <string name="seventeen_nl_word_17">flat</string>
+    <string name="seventeen_nl_word_18">lift</string>
+    <string name="seventeen_nl_word_19">eenkamerwoning</string>
+    <string name="seventeen_nl_word_20">driekamerwoning</string>
+    <string name="seventeen_nl_word_21">vierkamerwoning</string>
+    <string name="seventeen_nl_word_22">veranda</string>
+    <string name="seventeen_nl_word_23">bad(kamer)</string>
+    <string name="seventeen_nl_word_24">hal</string>
+    <string name="seventeen_nl_word_25">kelder</string>
+    <string name="seventeen_nl_word_26">garage</string>
+    <string name="seventeen_nl_word_27">begane grond</string>
+    <string name="seventeen_nl_word_28">tussenverdieping</string>
+    <string name="seventeen_nl_word_29">eerste verdieping</string>
+    <string name="seventeen_nl_word_30">tweede verdieping</string>
+    <string name="seventeen_nl_word_31">derde verdieping</string>
+    <string name="seventeen_nl_word_32">leeg</string>
+    <string name="seventeen_nl_word_33">vierde verdieping</string>
+    <string name="seventeen_nl_word_34">appartement met een hele verdieping</string>
+    <string name="seventeen_nl_word_35">sportschool</string>
+    <string name="seventeen_nl_word_36">vijfde verdieping</string>
+    <string name="seventeen_nl_word_37">penthouse</string>
+    <string name="seventeen_nl_word_38">kapsalon</string>
+    <string name="seventeen_nl_word_39">zesde</string>
+    <string name="seventeen_nl_word_40">zevende</string>
+    <string name="seventeen_nl_word_41">achtste</string>
+    <string name="seventeen_nl_word_42">negende</string>
+    <string name="seventeen_nl_word_43">tiende</string>
+    <string name="seventeen_nl_word_44">elfde</string>
+    <string name="seventeen_nl_word_45">dertiende</string>
+    <string name="seventeen_nl_word_46">vierkante meter</string>
+    <string name="seventeen_nl_word_47">souterrain</string>
+    <string name="seventeen_nl_word_48">licht</string>
+    <string name="seventeen_nl_word_49">binnenplaats, tuin</string>
+    <string name="seventeen_nl_word_50">van aluminium</string>
+    <string name="seventeen_nl_word_51">deur</string>
+    <string name="seventeen_nl_word_52">raam</string>
+    <string name="seventeen_nl_word_53">dichtbij</string>
+    <string name="seventeen_nl_word_54">staat</string>
+    <string name="seventeen_nl_word_55">servicekosten</string>
+    <string name="seventeen_nl_word_56">eengezinswoning</string>
+    <string name="seventeen_nl_word_57">het huis is van mij</string>
+    <string name="seventeen_nl_word_58">de sleutels zijn van mij</string>
+    <string name="seventeen_nl_word_59">eenpersoonskamer</string>
+    <string name="seventeen_nl_word_60">tweepersoonskamer</string>
+    <string name="seventeen_nl_word_61">uitzicht</string>
+    <string name="seventeen_nl_word_62">met uitzicht op zee</string>
+    <string name="seventeen_nl_word_63">zwembad</string>
+    <string name="seventeen_nl_word_64">per nacht</string>
+    <string name="seventeen_nl_word_65">prijs</string>
+    <string name="seventeen_nl_word_66">inclusief ontbijt</string>
+    <string name="seventeen_nl_word_67">identiteitskaart</string>
+    <string name="seventeen_nl_word_68">paspoort</string>
+    <string name="seventeen_nl_word_69">koffer</string>
+    <string name="seventeen_nl_word_70">meubel</string>
+
+    <!-- Greek words for lesson 17 -->
+
+    <string name="seventeen_gr_word_1">το διαμέρισμα</string>
+    <string name="seventeen_gr_word_2">ψάχνω για</string>
+    <string name="seventeen_gr_word_3">επιπλωμένος</string>
+    <string name="seventeen_gr_word_4">το δυάρι</string>
+    <string name="seventeen_gr_word_5">κατάλληλος</string>
+    <string name="seventeen_gr_word_6">ο όροφος</string>
+    <string name="seventeen_gr_word_7">το τζάκι</string>
+    <string name="seventeen_gr_word_8">το λίβινγκ ρουμ, το καθιστικό, το σαλόνι</string>
+    <string name="seventeen_gr_word_9">το υπνοδωμάτιο, η κρεβατοκάμαρα</string>
+    <string name="seventeen_gr_word_10">η κουζίνα</string>
+    <string name="seventeen_gr_word_11">το μπάνιο</string>
+    <string name="seventeen_gr_word_12">το μπαλκόνι</string>
+    <string name="seventeen_gr_word_13">το ενοίκιο</string>
+    <string name="seventeen_gr_word_14">ήσυχος</string>
+    <string name="seventeen_gr_word_15">η κουζινοτραπεζαρία</string>
+    <string name="seventeen_gr_word_16">λογικός</string>
+    <string name="seventeen_gr_word_17">η πολυκατοικία</string>
+    <string name="seventeen_gr_word_18">το ασανσέρ</string>
+    <string name="seventeen_gr_word_19">η γκαρσονιέρα</string>
+    <string name="seventeen_gr_word_20">το τριάρι</string>
+    <string name="seventeen_gr_word_21">το τεσσεράρι</string>
+    <string name="seventeen_gr_word_22">η βεράντα</string>
+    <string name="seventeen_gr_word_23">το λουτρό</string>
+    <string name="seventeen_gr_word_24">το χολ</string>
+    <string name="seventeen_gr_word_25">το υπόγειο</string>
+    <string name="seventeen_gr_word_26">το γκαράζ</string>
+    <string name="seventeen_gr_word_27">το ισόγειο</string>
+    <string name="seventeen_gr_word_28">η ημιώροφος</string>
+    <string name="seventeen_gr_word_29">ο πρώτος όροφος</string>
+    <string name="seventeen_gr_word_30">ο δεύτερος όροφος</string>
+    <string name="seventeen_gr_word_31">ο τρίτος όροφος</string>
+    <string name="seventeen_gr_word_32">άδειος</string>
+    <string name="seventeen_gr_word_33">ο τέταρτος όροφος</string>
+    <string name="seventeen_gr_word_34">το οροφοδιαμέρισμα</string>
+    <string name="seventeen_gr_word_35">το γυμναστήριο</string>
+    <string name="seventeen_gr_word_36">ο πέμπτος όροφος</string>
+    <string name="seventeen_gr_word_37">ρετιρέ</string>
+    <string name="seventeen_gr_word_38">το κομμωτήριο</string>
+    <string name="seventeen_gr_word_39">έκτος</string>
+    <string name="seventeen_gr_word_40">έβδομος</string>
+    <string name="seventeen_gr_word_41">όγδοος</string>
+    <string name="seventeen_gr_word_42">ένατος</string>
+    <string name="seventeen_gr_word_43">δέκατος</string>
+    <string name="seventeen_gr_word_44">ενδέκατος</string>
+    <string name="seventeen_gr_word_45">δέκατος τρίτος</string>
+    <string name="seventeen_gr_word_46">τ.μ., τετραγώνικα μετρά</string>
+    <string name="seventeen_gr_word_47">η ημιυπόγεια</string>
+    <string name="seventeen_gr_word_48">φωτεινός</string>
+    <string name="seventeen_gr_word_49">η αυλή</string>
+    <string name="seventeen_gr_word_50">αλουμινίου</string>
+    <string name="seventeen_gr_word_51">η πόρτα</string>
+    <string name="seventeen_gr_word_52">το παράθυρο</string>
+    <string name="seventeen_gr_word_53">πλησίον</string>
+    <string name="seventeen_gr_word_54">η κατάσταση</string>
+    <string name="seventeen_gr_word_55">τα κοινόχρηστα</string>
+    <string name="seventeen_gr_word_56">η μονοκατοικία</string>
+    <string name="seventeen_gr_word_57">το σπίτι είναι δικό μου</string>
+    <string name="seventeen_gr_word_58">τα κλειδιά είναι δικά μου</string>
+    <string name="seventeen_gr_word_59">μονόκλινο δωμάτιο</string>
+    <string name="seventeen_gr_word_60">δίκλινο δωμάτιο</string>
+    <string name="seventeen_gr_word_61">η θέα</string>
+    <string name="seventeen_gr_word_62">με θέα στη θάλασσα</string>
+    <string name="seventeen_gr_word_63">η πισίνα</string>
+    <string name="seventeen_gr_word_64">τη βράδυ</string>
+    <string name="seventeen_gr_word_65">η τιμή</string>
+    <string name="seventeen_gr_word_66">με πρωινό</string>
+    <string name="seventeen_gr_word_67">η ταυτότητα</string>
+    <string name="seventeen_gr_word_68">το διαβατήριο</string>
+    <string name="seventeen_gr_word_69">η βαλίτσα</string>
+    <string name="seventeen_gr_word_70">το έπιπλο</string>
+
+    <!-- Dutch words for lesson 18 -->
+
+    <string name="eighteen_nl_word_1">kleingeld</string>
+    <string name="eighteen_nl_word_2">winkel</string>
+    <string name="eighteen_nl_word_3">basketbal</string>
+    <string name="eighteen_nl_word_4">abrikoos</string>
+    <string name="eighteen_nl_word_5">schilderachtig</string>
+    <string name="eighteen_nl_word_6">wijk</string>
+    <string name="eighteen_nl_word_7">nauw</string>
+    <string name="eighteen_nl_word_8">voetgangersstraat</string>
+    <string name="eighteen_nl_word_9">rondrijden</string>
+    <string name="eighteen_nl_word_10">verkopen</string>
+    <string name="eighteen_nl_word_11">sieraad</string>
+    <string name="eighteen_nl_word_12">keramiek</string>
+    <string name="eighteen_nl_word_13">artikel, soort</string>
+    <string name="eighteen_nl_word_14">volks-</string>
+    <string name="eighteen_nl_word_15">instrument</string>
+    <string name="eighteen_nl_word_16">boodschappen</string>
+    <string name="eighteen_nl_word_17">vol met</string>
+
+    <!-- Greek words for lesson 18 -->
+
+    <string name="eighteen_gr_word_1">τα ψιλά</string>
+    <string name="eighteen_gr_word_2">το κατάστημα</string>
+    <string name="eighteen_gr_word_3">το μπάσκετ</string>
+    <string name="eighteen_gr_word_4">το βερίκοκο</string>
+    <string name="eighteen_gr_word_5">γραφικός</string>
+    <string name="eighteen_gr_word_6">η συνοικία</string>
+    <string name="eighteen_gr_word_7">στενός</string>
+    <string name="eighteen_gr_word_8">ο πεζόδρομος</string>
+    <string name="eighteen_gr_word_9">κυκλοφορώ</string>
+    <string name="eighteen_gr_word_10">πουλάω</string>
+    <string name="eighteen_gr_word_11">το κόσμημα</string>
+    <string name="eighteen_gr_word_12">το κεραμικό</string>
+    <string name="eighteen_gr_word_13">το είδος</string>
+    <string name="eighteen_gr_word_14">λαϊκός</string>
+    <string name="eighteen_gr_word_15">το όργανο</string>
+    <string name="eighteen_gr_word_16">τα ψώνια</string>
+    <string name="eighteen_gr_word_17">γεμάτος από</string>
 
 
 </resources>
