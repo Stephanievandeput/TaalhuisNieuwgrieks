@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TextActivityLessonOne">
+
+
+    <item
+        android:id="@+id/action_lesson_one"
+        android:title="@string/lesson_one"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_two"
+        android:title="@string/lesson_two"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_three"
+        android:title="@string/lesson_three"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_four"
+        android:title="@string/lesson_four"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_five"
+        android:title="@string/lesson_five"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_six"
+        android:title="@string/lesson_six"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_seven"
+        android:title="@string/lesson_seven"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_eight"
+        android:title="@string/lesson_eight"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_nine"
+        android:title="@string/lesson_nine"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_ten"
+        android:title="@string/lesson_ten"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_eleven"
+        android:title="@string/lesson_eleven"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_twelve"
+        android:title="@string/lesson_twelve"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_thirteen"
+        android:title="@string/lesson_thirteen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_fourteen"
+        android:title="@string/lesson_fourteen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_fifteen"
+        android:title="@string/lesson_fifteen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_sixteen"
+        android:title="@string/lesson_sixteen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_seventeen"
+        android:title="@string/lesson_seventeen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lesson_eighteen"
+        android:title="@string/lesson_eighteen"
+        app:showAsAction="never" />
+
+
+</menu>

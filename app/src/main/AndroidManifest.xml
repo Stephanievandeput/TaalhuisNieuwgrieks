@@ -91,129 +91,129 @@
             android:label="@string/lesson_eighteen" />
         <!-- Children of the Lesson Activities -->
         <activity android:name=".TestActivityLessonOneGRNL"
-            android:label=""
+            android:label="Les 1 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonOneActivity"/>
         <activity android:name=".TestActivityLessonOneNLGR"
-            android:label=""
+            android:label="Les 1 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonOneActivity"/>
 
         <activity android:name=".TestActivityLessonTwoGRNL"
-            android:label=""
+            android:label="Les 2 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwoActivity"/>
         <activity android:name=".TestActivityLessonTwoNLGR"
-            android:label=""
+            android:label="Les 2 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwoActivity"/>
 
         <activity android:name=".TestActivityLessonThreeGRNL"
-            android:label=""
+            android:label="Les 3 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThreeActivity"/>
         <activity android:name=".TestActivityLessonThreeNLGR"
-            android:label=""
+            android:label="Les 3 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThreeActivity"/>
 
         <activity android:name=".TestActivityLessonFourGRNL"
-            android:label=""
+            android:label="Les 4 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourActivity"/>
         <activity android:name=".TestActivityLessonFourNLGR"
-            android:label=""
+            android:label="Les 4 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourActivity"/>
 
         <activity android:name=".TestActivityLessonFiveGRNL"
-            android:label=""
+            android:label="Les 5 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFiveActivity"/>
         <activity android:name=".TestActivityLessonFiveNLGR"
-            android:label=""
+            android:label="Les 5 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFiveActivity"/>
 
         <activity android:name=".TestActivityLessonSixGRNL"
-            android:label=""
+            android:label="Les 6 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixActivity"/>
         <activity android:name=".TestActivityLessonSixNLGR"
-            android:label=""
+            android:label="Les 6 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixActivity"/>
 
         <activity android:name=".TestActivityLessonSevenGRNL"
-            android:label=""
+            android:label="Les 7 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSevenActivity"/>
         <activity android:name=".TestActivityLessonSevenNLGR"
-            android:label=""
+            android:label="Les 7 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSevenActivity"/>
 
         <activity android:name=".TestActivityLessonEightGRNL"
-            android:label=""
+            android:label="Les 8 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEightActivity"/>
         <activity android:name=".TestActivityLessonEightNLGR"
-            android:label=""
+            android:label="Les 8 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEightActivity"/>
 
         <activity android:name=".TestActivityLessonNineGRNL"
-            android:label=""
+            android:label="Les 9 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonNineActivity"/>
         <activity android:name=".TestActivityLessonNineNLGR"
-            android:label=""
+            android:label="Les 9 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonNineActivity"/>
 
         <activity android:name=".TestActivityLessonTenGRNL"
-            android:label=""
+            android:label="Les 10 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTenActivity"/>
         <activity android:name=".TestActivityLessonTenNLGR"
-            android:label=""
+            android:label="Les 10 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTenActivity"/>
 
         <activity android:name=".TestActivityLessonElevenGRNL"
-            android:label=""
+            android:label="Les 11 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonElevenActivity"/>
         <activity android:name=".TestActivityLessonElevenNLGR"
-            android:label=""
+            android:label="Les 11 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonElevenActivity"/>
 
         <activity android:name=".TestActivityLessonTwelveGRNL"
-            android:label=""
+            android:label="Les 12 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwelveActivity"/>
         <activity android:name=".TestActivityLessonTwelveNLGR"
-            android:label=""
+            android:label="Les 12 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonTwelveActivity"/>
 
         <activity android:name=".TestActivityLessonThirteenGRNL"
-            android:label=""
+            android:label="Les 13 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThirteenActivity"/>
         <activity android:name=".TestActivityLessonThirteenNLGR"
-            android:label=""
+            android:label="Les 13 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonThirteenActivity"/>
 
         <activity android:name=".TestActivityLessonFourteenGRNL"
-            android:label=""
+            android:label="Les 14 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourteenActivity"/>
         <activity android:name=".TestActivityLessonFourteenNLGR"
-            android:label=""
+            android:label="Les 14 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFourteenActivity"/>
 
         <activity android:name=".TestActivityLessonFifteenGRNL"
-            android:label=""
+            android:label="Les 15 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFifteenActivity"/>
         <activity android:name=".TestActivityLessonFifteenNLGR"
-            android:label=""
+            android:label="Les 15 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonFifteenActivity"/>
 
         <activity android:name=".TestActivityLessonSixteenGRNL"
-            android:label=""
+            android:label="Les 16 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixteenActivity"/>
         <activity android:name=".TestActivityLessonSixteenNLGR"
-            android:label=""
+            android:label="Les 16 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSixteenActivity"/>
 
         <activity android:name=".TestActivityLessonSeventeenGRNL"
-            android:label=""
+            android:label="Les 17 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSeventeenActivity"/>
         <activity android:name=".TestActivityLessonSeventeenNLGR"
-            android:label=""
+            android:label="Les 17 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonSeventeenActivity"/>
 
         <activity android:name=".TestActivityLessonEighteenGRNL"
-            android:label=""
+            android:label="Les 18 GR - NL"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEighteenActivity"/>
         <activity android:name=".TestActivityLessonEighteenNLGR"
-            android:label=""
+            android:label="Les 18 NL - GR"
             android:parentActivityName="com.example.android.taalhuisnieuwgrieks.LessonEighteenActivity"/>
     </application>
 

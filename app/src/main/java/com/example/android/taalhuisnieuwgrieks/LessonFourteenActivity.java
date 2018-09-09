@@ -1,7 +1,11 @@
 package com.example.android.taalhuisnieuwgrieks;
 
+import android.content.Intent;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -12,6 +16,8 @@ public class LessonFourteenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.string.fourteen_gr_word_1, R.string.fourteen_nl_word_1));
@@ -87,5 +93,48 @@ public class LessonFourteenActivity extends AppCompatActivity {
         WordAdapter adapter = new WordAdapter(this, words, R.color.colorBlue);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        //Inflate the menu options and add menu items to the app bar
+        getMenuInflater().inflate(R.menu.menu_lessons, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        //User clicked on a menu option (switch statement used for if any other options get added later)
+        switch (item.getItemId()) {
+            case R.id.action_overhoor_GR_NL:
+                intentGRNL();
+                return true;
+            case R.id.action_overhoor_NL_GR:
+                intentNLGR();
+                return true;
+            // Respond to a click on the "Up" arrow button in the app bar
+            case android.R.id.home:
+                // Navigate back to parent activity (CatalogActivity)
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void intentGRNL() {
+        // Create a new intent to open the {@link NumbersActivity}
+        Intent overhoorIntent = new Intent(LessonFourteenActivity.this, TestActivityLessonFourteenGRNL.class);
+
+        // Start the new activity
+        startActivity(overhoorIntent);
+    }
+
+    private void intentNLGR() {
+        // Create a new intent to open the {@link NumbersActivity}
+        Intent overhoorIntent = new Intent(LessonFourteenActivity.this, TestActivityLessonFourteenNLGR.class);
+
+        // Start the new activity
+        startActivity(overhoorIntent);
     }
 }

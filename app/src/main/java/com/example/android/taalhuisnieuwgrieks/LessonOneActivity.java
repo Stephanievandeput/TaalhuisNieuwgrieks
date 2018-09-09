@@ -78,7 +78,7 @@ public class LessonOneActivity extends AppCompatActivity {
 
         //Create a WordAdapter, whose data structure is a list of Word objects
         //The adapter creates a list item for each item in the list
-        WordAdapter adapter = new WordAdapter(this, words, R.color.colorYellow);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.colorBlue);
 
         //Find the ListView in the view hierarchy of the Activity
         ListView listView = (ListView) findViewById(R.id.list);
@@ -93,7 +93,6 @@ public class LessonOneActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         //Inflate the menu options and add menu items to the app bar
         getMenuInflater().inflate(R.menu.menu_lessons, menu);
-
         return true;
     }
 
